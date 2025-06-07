@@ -3,6 +3,7 @@ import {
   select,
   matchTyp,
   matchStyl,
+  matchSezona,
   getData,
   findData,
   filterData,
@@ -15,6 +16,9 @@ getData().forEach((item) => {
   });
   test(`id=${item.id} má styl`, () => {
     expect(item).toHaveProperty('styl');
+  });
+  test(`id=${item.id} má sezónu`, () => {
+    expect(item).toHaveProperty('sezona');
   });
 });
 */
@@ -46,6 +50,24 @@ test('matchStyl', () => {
   ).toBe(1);
   expect(
     matchStyl(findData({ styl: 'sportovni' }), findData({ styl: 'formalni' })),
+  ).toBeFalsy();
+});
+
+test('matchSezona', () => {
+  expect(
+    matchSezona(findData({ sezona: 'leto' }), findData({ sezona: 'leto' })),
+  ).toBe(2);
+  expect(
+    matchSezona(findData({ sezona: 'zima' }), findData({ sezona: 'zima' })),
+  ).toBe(2);
+  expect(
+    matchSezona(findData({ sezona: ['jaro'] }), findData({ sezona: 'leto' })),
+  ).toBe(1);
+  expect(
+    matchSezona(findData({ sezona: ['podzim'] }), findData({ sezona: 'leto' })),
+  ).toBe(1);
+  expect(
+    matchSezona(findData({ sezona: 'leto' }), findData({ sezona: 'zima' })),
   ).toBeFalsy();
 });
 

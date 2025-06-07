@@ -12,6 +12,25 @@ const compareData = (item, example) => {
   for (const key in example) {
     const itemValue = item[key];
     const exampleValue = example[key];
+    if (Array.isArray(itemValue) && Array.isArray(exampleValue)) {
+      return itemValue.some(
+        (itemValueItem) => exampleValue.indexOf(itemValueItem) >= 0,
+      );
+    }
+    if (Array.isArray(itemValue) || Array.isArray(exampleValue)) {
+      return false;
+    }
+    if (itemValue !== exampleValue) {
+      return false;
+    }
+  }
+  return true;
+};
+
+const compareDataRelaxed = (item, example) => {
+  for (const key in example) {
+    const itemValue = item[key];
+    const exampleValue = example[key];
     if (Array.isArray(itemValue)) {
       if (Array.isArray(exampleValue)) {
         return itemValue.some(
@@ -62,6 +81,14 @@ const matchArray = (userSelection, candidate, comparator) => {
   return result;
 };
 
+const matchPairs = (userSelection, candidate, pairs) => {
+  return pairs.some(
+    (pair) =>
+      (pair[0] === userSelection && pair[1] === candidate) ||
+      (pair[1] === userSelection && pair[0] === candidate),
+  );
+};
+
 export const matchTyp = (userSelection, candidate) => {
   if (vrchniDily.indexOf(userSelection.typ) >= 0) {
     return spodniDily.indexOf(candidate.typ) >= 0;
@@ -76,7 +103,7 @@ export const matchBarva = (userSelection, candidate) => {
   return true;
 };
 
-export const matchStylSingle = (userSelectionStyl, candidateStyl) => {
+const matchStylSingle = (userSelectionStyl, candidateStyl) => {
   if (userSelectionStyl === candidateStyl) {
     return 2;
   }
@@ -90,6 +117,26 @@ export const matchStyl = (userSelection, candidate) => {
   return matchArray(userSelection.styl, candidate.styl, matchStylSingle);
 };
 
+const matchSezonaSingle = (userSelectionSezona, candidateSezona) => {
+  if (userSelectionSezona === candidateSezona) {
+    return 2;
+  }
+  if (
+    matchPairs(userSelectionSezona, candidateSezona, [
+      ['jaro', 'leto'],
+      ['leto', 'podzim'],
+      ['podzim', 'zima'],
+    ])
+  ) {
+    return 1;
+  }
+  return false;
+};
+
+export const matchSezona = (userSelection, candidate) => {
+  return matchArray(userSelection.sezona, candidate.sezona, matchSezonaSingle);
+};
+
 /*
  * Seznam porovnavacich funkci vyhodnocujicich vhodnost parovani kusu obleceni.
  * Funkce vraci:
@@ -97,7 +144,7 @@ export const matchStyl = (userSelection, candidate) => {
  * - true, pokud se k sobe dva kusy hodi a neni potreba rozlisovat miru vhodnosti
  * - cislo oznacujici vhodnost kombinace, cim vetsi tim lepsi
  */
-const matchers = [matchTyp, matchStyl, matchBarva];
+const matchers = [matchTyp, matchStyl, matchSezona, matchBarva];
 
 /**
  * Porovná dva kusy oblečení podle toho, jaká je u nich ulozena vhodnost (property match).
