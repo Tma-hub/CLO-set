@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-* {
-  box-sizing: border-box;
+h1 {
+  font-family: the-seasons, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-html {
-  font-family: 'Open Sans', sans-serif;
+h2 {
+  font-family: the-seasons, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.container {
-  max-width: 26rem;
-  margin-right: auto;
-  margin-left: auto;
+h3 {
+  font-family: the-seasons, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+header {
+  background-color: rgba(230, 239, 235, 1);
+
+}
+
+.capsule__closet,
+.materials {
+  background-color: rgba(103, 126, 116, 1);
 }
