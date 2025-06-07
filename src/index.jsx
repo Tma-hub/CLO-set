@@ -1,5 +1,5 @@
 import './global.css';
 import { createRoot } from 'react-dom/client';
-import { HomePage } from './pages/HomePage/index.jsx';
+import { App } from './App.jsx';
 
-createRoot(document.querySelector('#app')).render(<HomePage />);
+createRoot(document.querySelector('#app')).render(<App />);
