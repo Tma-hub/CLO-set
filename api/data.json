@@ -860,7 +860,7 @@
     "odstin": "tmava",
     "vzor": null,
     "material": "bavlna",
-    "styl": ["sport"],
+    "styl": ["sportovni"],
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim"
@@ -872,7 +872,7 @@
     "odstin": "tmava",
     "vzor": null,
     "material": "bavlna",
-    "styl": ["sport"],
+    "styl": ["sportovni"],
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular"
@@ -932,7 +932,7 @@
     "odstin": "tmava",
     "vzor": null,
     "material": "bavlna",
-    "styl": ["sport"],
+    "styl": ["sportovni"],
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular"
@@ -1900,7 +1900,7 @@
     "odstin": "tmava",
     "vzor": null,
     "material": "bavlna",
-    "styl": ["sport"],
+    "styl": ["sportovni"],
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",

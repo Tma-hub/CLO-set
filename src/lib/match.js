@@ -10,7 +10,21 @@ export const getData = () => {
 
 const compareData = (item, example) => {
   for (const key in example) {
-    if (item[key] !== example[key]) {
+    const itemValue = item[key];
+    const exampleValue = example[key];
+    if (Array.isArray(itemValue)) {
+      if (Array.isArray(exampleValue)) {
+        return itemValue.some(
+          (itemValueItem) => exampleValue.indexOf(itemValueItem) >= 0,
+        );
+      } else {
+        return itemValue.indexOf(exampleValue) >= 0;
+      }
+    }
+    if (Array.isArray(exampleValue)) {
+      return exampleValue.indexOf(itemValue) >= 0;
+    }
+    if (itemValue !== exampleValue) {
       return false;
     }
   }
@@ -29,7 +43,26 @@ export const filterData = (example) => {
   return data.filter(comparator(example));
 };
 
-export const matchType = (userSelection, candidate) => {
+const matchArray = (userSelection, candidate, comparator) => {
+  let result = false;
+  userSelection.forEach((userSelectionItem) => {
+    candidate.forEach((candidateItem) => {
+      const singleResult = comparator(userSelectionItem, candidateItem);
+      if (typeof singleResult === 'number') {
+        if (typeof result === 'number') {
+          result = Math.max(result, singleResult);
+        } else {
+          result = singleResult;
+        }
+      } else if (typeof result !== 'number') {
+        result = result || singleResult;
+      }
+    });
+  });
+  return result;
+};
+
+export const matchTyp = (userSelection, candidate) => {
   if (vrchniDily.indexOf(userSelection.typ) >= 0) {
     return spodniDily.indexOf(candidate.typ) >= 0;
   }
@@ -39,6 +72,24 @@ export const matchType = (userSelection, candidate) => {
   return false;
 };
 
+export const matchBarva = (userSelection, candidate) => {
+  return true;
+};
+
+export const matchStylSingle = (userSelectionStyl, candidateStyl) => {
+  if (userSelectionStyl === candidateStyl) {
+    return 2;
+  }
+  if (userSelectionStyl === 'casual' || candidateStyl === 'casual') {
+    return 1;
+  }
+  return false;
+};
+
+export const matchStyl = (userSelection, candidate) => {
+  return matchArray(userSelection.styl, candidate.styl, matchStylSingle);
+};
+
 /*
  * Seznam porovnavacich funkci vyhodnocujicich vhodnost parovani kusu obleceni.
  * Funkce vraci:
@@ -46,7 +97,7 @@ export const matchType = (userSelection, candidate) => {
  * - true, pokud se k sobe dva kusy hodi a neni potreba rozlisovat miru vhodnosti
  * - cislo oznacujici vhodnost kombinace, cim vetsi tim lepsi
  */
-const matchers = [matchType];
+const matchers = [matchTyp, matchStyl, matchBarva];
 
 /**
  * Porovná dva kusy oblečení podle toho, jaká je u nich ulozena vhodnost (property match).
