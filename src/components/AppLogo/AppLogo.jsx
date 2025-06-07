@@ -1,6 +1,6 @@
 import './AppLogo.css';
 
-export const Header = () => {
+export const AppLogo = () => {
   return (
     <div>
       <section className="opening__page">

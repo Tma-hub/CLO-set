@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.main__header {
+  background-color: rgba(230, 239, 235, 1);
+
+}
+
+.content_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+
+}

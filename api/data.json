@@ -11,7 +11,6 @@
     "delka": "stredni",
     "strih": "volne",
     "img": "bunda_cerna_zimni.jpg"
-
   },
   {
     "id": 2,
@@ -964,7 +963,7 @@
   },
   {
     "id": 80,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["bezova"],
     "odstin": "svetla",
     "vzor": null,
@@ -973,10 +972,10 @@
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "kratka",
     "strih": "regular"
-  }
+  },
   {
     "id": 81,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["cerna"],
     "odstin": "tmava",
     "vzor": null,
@@ -984,11 +983,11 @@
     "styl": ["formalni", "casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-  }
+    "strih": "regular"
+  },
   {
     "id": 82,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["cerna"],
     "odstin": "tmava",
     "vzor": null,
@@ -996,11 +995,11 @@
     "styl": ["formalni", "casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-  }
+    "strih": "regular"
+  },
   {
     "id": 83,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["cerna"],
     "odstin": "tmava",
     "vzor": null,
@@ -1008,11 +1007,11 @@
     "styl": ["formalni", "casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-  }
+    "strih": "regular"
+  },
   {
     "id": 84,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["hneda"],
     "odstin": "tmava",
     "vzor": "kostkovany",
@@ -1022,10 +1021,10 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "sako_hnede_pepito.jpg"
-  }
+  },
   {
     "id": 85,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["seda"],
     "odstin": "tmava",
     "vzor": "kostkovany",
@@ -1035,10 +1034,10 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "sako_kostka.jpg"
-  }
+  },
   {
     "id": 86,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["bezova"],
     "odstin": "svetla",
     "vzor": null,
@@ -1048,10 +1047,10 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "sako_kremova_krep.jpg"
-  }
+  },
   {
     "id": 87,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["bila"],
     "odstin": "svetla",
     "vzor": null,
@@ -1061,10 +1060,10 @@
     "delka": "stredni",
     "strih": "regular",
     "img": "sako_lnene_pruh.jpg"
-  }
+  },
   {
     "id": 88,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["modra"],
     "odstin": "svetla",
     "vzor": null,
@@ -1073,11 +1072,11 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sako_svetle_modra.jpg",
-  }
+    "img": "sako_svetle_modra.jpg"
+  },
   {
     "id": 89,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["seda"],
     "odstin": "tmava",
     "vzor": null,
@@ -1086,11 +1085,11 @@
     "sezona": ["jaro", "podzim "],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sako_seda.jpg",
-  }
+    "img": "sako_seda.jpg"
+  },
   {
     "id": 90,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["modra"],
     "odstin": "tmava",
     "vzor": null,
@@ -1099,11 +1098,11 @@
     "sezona": ["jaro", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sako_tmave_modra.jpg",
-  }
+    "img": "sako_tmave_modra.jpg"
+  },
   {
     "id": 91,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["zluta"],
     "odstin": "svetla",
     "vzor": null,
@@ -1112,11 +1111,11 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sako_zlute.jpg",
-  }
+    "img": "sako_zlute.jpg"
+  },
   {
     "id": 92,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["hneda"],
     "odstin": "tmava",
     "vzor": null,
@@ -1125,11 +1124,11 @@
     "sezona": ["leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_hneda_len.jpg",
-  }
+    "img": "vesta_hneda_len.jpg"
+  },
   {
     "id": 93,
-    "typ": "saka",
+    "typ": "sako",
     "barva": ["ruzova"],
     "odstin": "svetla",
     "vzor": null,
@@ -1138,8 +1137,8 @@
     "sezona": ["leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_růžová.jpg",
-  }
+    "img": "vesta_růžová.jpg"
+  },
   {
     "id": 94,
     "typ": "sukne",
@@ -1151,8 +1150,8 @@
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sukne_bezova_denim.jpg",
-  }
+    "img": "sukne_bezova_denim.jpg"
+  },
   {
     "id": 95,
     "typ": "sukne",
@@ -1164,8 +1163,8 @@
     "sezona": ["jaro", "podzim", "leto", "zima"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "sukne_cerna_kuze.jpg",
-  }
+    "img": "sukne_cerna_kuze.jpg"
+  },
   {
     "id": 96,
     "typ": "sukne",
@@ -1177,8 +1176,8 @@
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "sukne_cerna_kvetovana.jpg",
-  }
+    "img": "sukne_cerna_kvetovana.jpg"
+  },
   {
     "id": 97,
     "typ": "sukne",
@@ -1187,11 +1186,11 @@
     "vzor": null,
     "material": "denim",
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim", "leto","zima"],
+    "sezona": ["jaro", "podzim", "leto", "zima"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_denim.jpg",
-  }
+    "img": "sukne_denim.jpg"
+  },
   {
     "id": 98,
     "typ": "sukne",
@@ -1203,8 +1202,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "sukne_letni_plise_bila.jpg",
-  }
+    "img": "sukne_letni_plise_bila.jpg"
+  },
   {
     "id": 99,
     "typ": "sukne",
@@ -1216,8 +1215,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "sukne_plise_ruzova.jpg",
-  }
+    "img": "sukne_plise_ruzova.jpg"
+  },
   {
     "id": 100,
     "typ": "sukne",
@@ -1229,8 +1228,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_red.jpg",
-  }
+    "img": "sukne_red.jpg"
+  },
   {
     "id": 101,
     "typ": "sukne",
@@ -1242,8 +1241,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_saten_bila.jpg",
-  }
+    "img": "sukne_saten_bila.jpg"
+  },
   {
     "id": 102,
     "typ": "sukne",
@@ -1255,12 +1254,12 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_saten_cerna.jpg",
-  }
+    "img": "sukne_saten_cerna.jpg"
+  },
   {
     "id": 103,
     "typ": "sukne",
-    "barva": ["bezova", "hneda", "cerna"]
+    "barva": ["bezova", "hneda", "cerna"],
     "odstin": null,
     "vzor": null,
     "material": "saten",
@@ -1268,8 +1267,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_saten_leopard.jpg",
-  }
+    "img": "sukne_saten_leopard.jpg"
+  },
   {
     "id": 104,
     "typ": "sukne",
@@ -1281,8 +1280,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "sukne_saten_ruzová_kratka.jpg",
-  }
+    "img": "sukne_saten_ruzová_kratka.jpg"
+  },
   {
     "id": 105,
     "typ": "sukne",
@@ -1294,8 +1293,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_saten_seda.jpg",
-  }
+    "img": "sukne_saten_seda.jpg"
+  },
   {
     "id": 106,
     "typ": "sukne",
@@ -1307,8 +1306,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "sukne_sportovni_cerna.jpg",
-  }
+    "img": "sukne_sportovni_cerna.jpg"
+  },
   {
     "id": 107,
     "typ": "sukne",
@@ -1320,12 +1319,12 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sukne_sifon_zluta.jpg",
-  }
+    "img": "sukne_sifon_zluta.jpg"
+  },
   {
     "id": 108,
     "typ": "sukne",
-    "barva": ["zelena"]
+    "barva": ["zelena"],
     "odstin": "tmava",
     "vzor": null,
     "material": "polyester",
@@ -1333,34 +1332,34 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sukne_zelena.jpg",
-  }
+    "img": "sukne_zelena.jpg"
+  },
   {
     "id": 109,
     "typ": "svetry",
-    "barva": ["hneda"]
+    "barva": ["hneda"],
     "odstin": "tmava",
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "leto","podzim"],
+    "sezona": ["jaro", "leto", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_bezova_tmava.jpg",
-  }
+    "img": "svetr_bezova_tmava.jpg"
+  },
   {
     "id": 110,
     "typ": "svetry",
-    "barva": ["bezova"]
+    "barva": ["bezova"],
     "odstin": "svetla",
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_bezova.jpg",
-  }
+    "img": "svetr_bezova.jpg"
+  },
   {
     "id": 111,
     "typ": "svetry",
@@ -1369,11 +1368,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_cerny_uni.jpg",
-  }
+    "img": "svetr_cerny_uni.jpg"
+  },
   {
     "id": 112,
     "typ": "svetry",
@@ -1382,11 +1381,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_fialova.jpg",
-  }
+    "img": "svetr_fialova.jpg"
+  },
   {
     "id": 113,
     "typ": "svetry",
@@ -1395,11 +1394,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_modra.jpg",
-  }
+    "img": "svetr_modra.jpg"
+  },
   {
     "id": 114,
     "typ": "svetry",
@@ -1408,11 +1407,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_ruzova_tmava.jpg",
-  }
+    "img": "svetr_ruzova_tmava.jpg"
+  },
   {
     "id": 115,
     "typ": "svetry",
@@ -1421,11 +1420,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_ruzova.jpg",
-  }
+    "img": "svetr_ruzova.jpg"
+  },
   {
     "id": 116,
     "typ": "svetry",
@@ -1434,11 +1433,11 @@
     "vzor": null,
     "material": "vlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "zima","podzim"],
+    "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_seda_kratky.jpg",
-  }
+    "img": "svetr_seda_kratky.jpg"
+  },
   {
     "id": 117,
     "typ": "svetry",
@@ -1450,8 +1449,8 @@
     "sezona": ["jaro", "zima", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_tm_modra.jpg",
-  }
+    "img": "svetr_tm_modra.jpg"
+  },
   {
     "id": 118,
     "typ": "svetry",
@@ -1463,8 +1462,8 @@
     "sezona": ["jaro", "zima", "podzim", "leto"],
     "delka": "stredni",
     "strih": "slim",
-    "img": "svetr_uply_pruhy.jpg",
-  }
+    "img": "svetr_uply_pruhy.jpg"
+  },
   {
     "id": 119,
     "typ": "svetry",
@@ -1476,8 +1475,8 @@
     "sezona": ["jaro", "zima", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_zelena_svetla.jpg",
-  }
+    "img": "svetr_zelena_svetla.jpg"
+  },
   {
     "id": 120,
     "typ": "svetry",
@@ -1489,8 +1488,8 @@
     "sezona": ["jaro", "zima", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_zeleny_tmavy.jpg",
-  }
+    "img": "svetr_zeleny_tmavy.jpg"
+  },
   {
     "id": 121,
     "typ": "svetry",
@@ -1502,8 +1501,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "svetr_zluta.jpg",
-  }
+    "img": "svetr_zluta.jpg"
+  },
   {
     "id": 122,
     "typ": "svetry",
@@ -1515,8 +1514,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_pletená_bílá.jpg",
-  }
+    "img": "vesta_pletená_bílá.jpg"
+  },
   {
     "id": 123,
     "typ": "saty",
@@ -1528,8 +1527,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_bordo.jpg",
-  }
+    "img": "saty_bordo.jpg"
+  },
   {
     "id": 124,
     "typ": "saty",
@@ -1541,8 +1540,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "volne",
-    "img": "saty_cerné_balon.jpg",
-  }
+    "img": "saty_cerné_balon.jpg"
+  },
   {
     "id": 125,
     "typ": "saty",
@@ -1554,8 +1553,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "saty_cerne_formal.jpg",
-  }
+    "img": "saty_cerne_formal.jpg"
+  },
   {
     "id": 126,
     "typ": "saty",
@@ -1567,8 +1566,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "saty_cerne_mini.jpg",
-  }
+    "img": "saty_cerne_mini.jpg"
+  },
   {
     "id": 127,
     "typ": "saty",
@@ -1580,9 +1579,9 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_krep_modre.jpg",
-  }
-   {
+    "img": "saty_krep_modre.jpg"
+  },
+  {
     "id": 128,
     "typ": "saty",
     "barva": ["bila"],
@@ -1593,8 +1592,8 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_len_pruh.jpg",
-  }
+    "img": "saty_len_pruh.jpg"
+  },
   {
     "id": 129,
     "typ": "saty",
@@ -1606,8 +1605,8 @@
     "sezona": ["jaro", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "saty_pruh.jpg",
-  }
+    "img": "saty_pruh.jpg"
+  },
   {
     "id": 130,
     "typ": "saty",
@@ -1619,8 +1618,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "saty_saten_bila.jpg",
-  }
+    "img": "saty_saten_bila.jpg"
+  },
   {
     "id": 131,
     "typ": "saty",
@@ -1632,8 +1631,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "saty_saten_svmodra.jpg",
-  }
+    "img": "saty_saten_svmodra.jpg"
+  },
   {
     "id": 132,
     "typ": "saty",
@@ -1645,8 +1644,8 @@
     "sezona": ["leto", "jaro", "podzim"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_slouhe_sede.jpg",
-  }
+    "img": "saty_slouhe_sede.jpg"
+  },
   {
     "id": 133,
     "typ": "saty",
@@ -1658,8 +1657,8 @@
     "sezona": ["leto", "jaro", "podzim", "zima"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_spolec.jpg",
-  }
+    "img": "saty_spolec.jpg"
+  },
   {
     "id": 134,
     "typ": "saty",
@@ -1671,8 +1670,8 @@
     "sezona": ["leto"],
     "delka": "stredni",
     "strih": "volne",
-    "img": "saty_svzelene_sifon.jpg",
-  }
+    "img": "saty_svzelene_sifon.jpg"
+  },
   {
     "id": 135,
     "typ": "saty",
@@ -1684,8 +1683,8 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_tmmodra.azura.jpg",
-  }
+    "img": "saty_tmmodra.azura.jpg"
+  },
   {
     "id": 136,
     "typ": "saty",
@@ -1697,8 +1696,8 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_zelene_azura.jpg",
-  }
+    "img": "saty_zelene_azura.jpg"
+  },
   {
     "id": 137,
     "typ": "saty",
@@ -1710,8 +1709,8 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volne",
-    "img": "saty_zlute_kvetinove.jpg",
-  }
+    "img": "saty_zlute_kvetinove.jpg"
+  },
   {
     "id": 138,
     "typ": "topy",
@@ -1723,8 +1722,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_bezovy.jpg",
-  }
+    "img": "top_bezovy.jpg"
+  },
   {
     "id": 139,
     "typ": "topy",
@@ -1736,8 +1735,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_bily.jpg",
-  }
+    "img": "top_bily.jpg"
+  },
   {
     "id": 140,
     "typ": "topy",
@@ -1749,8 +1748,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_cerny.jpg",
-  }
+    "img": "top_cerny.jpg"
+  },
   {
     "id": 141,
     "typ": "topy",
@@ -1762,8 +1761,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_cerveny.jpg",
-  }
+    "img": "top_cerveny.jpg"
+  },
   {
     "id": 142,
     "typ": "topy",
@@ -1775,8 +1774,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_hnedy.jpg",
-  }
+    "img": "top_hnedy.jpg"
+  },
   {
     "id": 143,
     "typ": "topy",
@@ -1788,8 +1787,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_hnedy.jpg",
-  }
+    "img": "top_hnedy.jpg"
+  },
   {
     "id": 144,
     "typ": "topy",
@@ -1801,8 +1800,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_modry_tmavy.jpg",
-  }
+    "img": "top_modry_tmavy.jpg"
+  },
   {
     "id": 145,
     "typ": "topy",
@@ -1814,8 +1813,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_modry.jpg",
-  }
+    "img": "top_modry.jpg"
+  },
   {
     "id": 146,
     "typ": "topy",
@@ -1827,8 +1826,8 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "slim",
-    "img": "top_pruh_dlouhe.jpg",
-  }
+    "img": "top_pruh_dlouhe.jpg"
+  },
   {
     "id": 147,
     "typ": "topy",
@@ -1840,8 +1839,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_sedy.jpg",
-  }
+    "img": "top_sedy.jpg"
+  },
   {
     "id": 148,
     "typ": "topy",
@@ -1853,8 +1852,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "slim",
-    "img": "top_vzorovany_pruh.jpg",
-  }
+    "img": "top_vzorovany_pruh.jpg"
+  },
   {
     "id": 149,
     "typ": "topy",
@@ -1866,8 +1865,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "top_vzorovany.jpg",
-  }
+    "img": "top_vzorovany.jpg"
+  },
   {
     "id": 150,
     "typ": "topy",
@@ -1879,8 +1878,8 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "top_zluty.jpg",
-  }
+    "img": "top_zluty.jpg"
+  },
   {
     "id": 151,
     "typ": "trika",
@@ -1889,11 +1888,11 @@
     "vzor": "kvetinovy",
     "material": "polyester",
     "styl": ["casual"],
-    "sezona": ["jaro","podzim"],
+    "sezona": ["jaro", "podzim"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "rolak_kvetovany.jpg",
-  }
+    "img": "rolak_kvetovany.jpg"
+  },
   {
     "id": 152,
     "typ": "trika",
@@ -1902,11 +1901,11 @@
     "vzor": null,
     "material": "bavlna",
     "styl": ["sport"],
-    "sezona": ["jaro","leto"],
+    "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "sportovni triko.jpg",
-  }
+    "img": "sportovni triko.jpg"
+  },
   {
     "id": 153,
     "typ": "trika",
@@ -1915,11 +1914,11 @@
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual"],
-    "sezona": ["jaro","leto", "podzim"],
+    "sezona": ["jaro", "leto", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_basic_bila.jpg",
-  }
+    "img": "triko_basic_bila.jpg"
+  },
   {
     "id": 154,
     "typ": "trika",
@@ -1931,8 +1930,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_basic_cerna.jpg",
-  }
+    "img": "triko_basic_cerna.jpg"
+  },
   {
     "id": 155,
     "typ": "trika",
@@ -1944,8 +1943,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_basic_hneda.jpg",
-  }
+    "img": "triko_basic_hneda.jpg"
+  },
   {
     "id": 156,
     "typ": "trika",
@@ -1957,8 +1956,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_basic_ruzova.jpg",
-  }
+    "img": "triko_basic_ruzova.jpg"
+  },
   {
     "id": 157,
     "typ": "trika",
@@ -1970,8 +1969,8 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_basic_seda.jpg",
-  }
+    "img": "triko_basic_seda.jpg"
+  },
   {
     "id": 158,
     "typ": "trika",
@@ -1983,8 +1982,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_bile_potisk.jpg",
-  }
+    "img": "triko_bile_potisk.jpg"
+  },
   {
     "id": 159,
     "typ": "trika",
@@ -1996,8 +1995,8 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_bile.jpg",
-  }
+    "img": "triko_bile.jpg"
+  },
   {
     "id": 160,
     "typ": "trika",
@@ -2009,8 +2008,8 @@
     "sezona": ["jaro", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_dlrukav_bezova.jpg",
-  }
+    "img": "triko_dlrukav_bezova.jpg"
+  },
   {
     "id": 161,
     "typ": "trika",
@@ -2022,8 +2021,8 @@
     "sezona": ["jaro", "podzim", "zima"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_dlrukav_bila.jpg",
-  }
+    "img": "triko_dlrukav_bila.jpg"
+  },
   {
     "id": 162,
     "typ": "trika",
@@ -2035,8 +2034,8 @@
     "sezona": ["jaro", "podzim", "zima"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_dlrukav_cerna.jpg",
-  }
+    "img": "triko_dlrukav_cerna.jpg"
+  },
   {
     "id": 163,
     "typ": "trika",
@@ -2045,11 +2044,11 @@
     "vzor": "pruhovany",
     "material": "bavlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim","leto"],
+    "sezona": ["jaro", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_polo.jpg",
-  }
+    "img": "triko_polo.jpg"
+  },
   {
     "id": 164,
     "typ": "trika",
@@ -2058,11 +2057,11 @@
     "vzor": "pruhovany",
     "material": "bavlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim","leto"],
+    "sezona": ["jaro", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_pruhovane.jpg",
-  }
+    "img": "triko_pruhovane.jpg"
+  },
   {
     "id": 165,
     "typ": "trika",
@@ -2071,10 +2070,9 @@
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim","leto"],
+    "sezona": ["jaro", "podzim", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "triko_tmmodra.jpg",
+    "img": "triko_tmmodra.jpg"
   }
 ]
-

@@ -1,6 +1,6 @@
 import './SustainableFashion.css';
 
-export const Header = () => {
+export const SustainableFashion = () => {
   return (
     <div>
       <div className="capsule__closet">

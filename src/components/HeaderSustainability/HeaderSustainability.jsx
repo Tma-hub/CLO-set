@@ -1,6 +1,6 @@
-import './Header.css';
+import './HeaderSustainability.css';
 
-export const Header = () => {
+export const HeaderSustainability = () => {
   return (
     <section className="main__header">
       <div className="content_wrapper">
