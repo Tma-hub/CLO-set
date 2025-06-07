@@ -18,6 +18,6 @@ test('matchType', () => {
 
 test('Co se páruje s id=14', () => {
   const result = select(findData({ id: 14 }));
-  console.log(result);
-  //expect(sum(1, 2)).toBe(3)
+  //console.log(result);
+  expect(result.length).toBe(45);
 });

@@ -39,10 +39,17 @@ export const matchType = (userSelection, candidate) => {
   return false;
 };
 
+/*
+ * Seznam porovnavacich funkci vyhodnocujicich vhodnost parovani kusu obleceni.
+ * Funkce vraci:
+ * - false, pokud se k sobe dva kusy vubec nemaji parovat (napr. dve halenky).
+ * - true, pokud se k sobe dva kusy hodi a neni potreba rozlisovat miru vhodnosti
+ * - cislo oznacujici vhodnost kombinace, cim vetsi tim lepsi
+ */
 const matchers = [matchType];
 
 /**
- * Porovná dva kusy oblečení podle toho, jaká je u nich zaznamenaná vhodnost (match).
+ * Porovná dva kusy oblečení podle toho, jaká je u nich ulozena vhodnost (property match).
  */
 const matchComparator = (a, b) => {
   return a.match - b.match;
@@ -52,7 +59,7 @@ const matchComparator = (a, b) => {
  * Vrátí seznam kusů oblečení, které se hodí k `userSelection`, seřazené podle vhodnosti.
  */
 export const select = (userSelection) => {
-  let data = Array.from(getData());
+  let data = getData().map((item) => Object.assign(item));
   data.forEach((item) => (item.match = 0));
 
   matchers.forEach((matcher) => {
