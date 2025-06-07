@@ -1,0 +1,11 @@
+.opening button {
+  margin: 5rem 5rem 0 5rem;
+  position: absolute;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
