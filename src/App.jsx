@@ -8,7 +8,7 @@ export const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="about_app" element={<AboutPage />} />
+        <Route path="about-app" element={<AboutPage />} />
         <Route path="sustainability" element={<SustainabilityPage />} />
       </Routes>
     </BrowserRouter>

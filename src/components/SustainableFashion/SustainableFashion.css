@@ -1,4 +1,87 @@
 .capsule__closet,
+.cost__per__wear,
+.materials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  gap: 2rem;
+}
+
+.capsule__closet,
 .materials {
   background-color: rgba(103, 126, 116, 1);
+  color: white;
+}
+
+.capsule__closet h1,
+.capsule__closet p,
+.materials h1,
+.materials p {
+  color: white;
+}
+
+.cost__per__wear {
+  background-color: white;
+  color: #333;
+}
+
+.sustainable_fashion_img {
+  flex-shrink: 0;
+}
+
+.sustainable_fashion_img img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.capsule__closet .sustainable_fashion_img,
+.materials .sustainable_fashion_img {
+  order: 2;
+}
+
+
+.capsule__closet__info,
+.materials_info {
+  flex: 1;
+  order: 1;
+  text-align: left;
+}
+
+.cost__per__wear .sustainable_fashion_img {
+  order: 1;
+}
+
+
+.cost__per__wear__info {
+  flex: 1;
+  order: 2;
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf0ed;
+}
+
+.container img {
+  height: 100%;
+  object-fit: contain;
 }

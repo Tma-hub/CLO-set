@@ -5,8 +5,8 @@ import './aboutPage.css';
 export const AboutPage = () => {
   return (
     <>
-      <Header></Header>
-      <About></About>
+      <Header />
+      <About />
     </>
   );
 };
