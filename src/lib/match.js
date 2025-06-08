@@ -1,8 +1,10 @@
 import data from '../../api/data.json';
 
-const vrchniDily = ['halenka', 'kosile', 'saty', 'svetry', 'topy', 'trika'];
+const vrchniDily = ['halenka', 'kosile', , 'svetry', 'topy', 'trika'];
 const spodniDily = ['kalhoty', 'kratasy', 'sukne'];
 const svrchniDily = ['kabat', 'sako', 'bunda'];
+const saty = ['saty'];
+
 
 export const getData = () => {
   return data;
@@ -76,6 +78,12 @@ export const matchTyp = (userSelection, candidate) => {
   }
   if (spodniDily.indexOf(userSelection.typ) >= 0) {
     return vrchniDily.indexOf(candidate.typ) >= 0;
+  }
+  if (svrchniDily.indexOf(userSelection.typ) >= 0) {
+    return saty.indexOf(candidate.typ) >= 0;
+  }
+  if (saty.indexOf(userSelection.typ) >= 0) {
+    return svrchniDily.indexOf(candidate.typ) >= 0;
   }
   return false;
 };
