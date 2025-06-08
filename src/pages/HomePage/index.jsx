@@ -18,20 +18,22 @@ export const HomePage = () => {
             </button>
           </Link>
         </HeaderMainPage>
-        <Weather></Weather>
-        <RandomPicks></RandomPicks>
-        <AddNew></AddNew>
-        <Link to="/select-page">
-          <button className="what__to__wear_btn">
-            <h1>Co dnes na sebe?</h1>{' '}
-          </button>
-        </Link>
-        <Favorites></Favorites>
-        <Link to="/sustainability">
-          <button className="sustainability_btn">
-            <h3>Jak na udržitelný šatník?</h3>
-          </button>
-        </Link>
+        <div className="homepage">
+          <Weather></Weather>
+          <RandomPicks></RandomPicks>
+          <AddNew></AddNew>
+          <Link to="/select-page">
+            <button className="what__to__wear_btn">
+              <h1>Co dnes na sebe?</h1>{' '}
+            </button>
+          </Link>
+          <Favorites></Favorites>
+          <Link to="/sustainability">
+            <button className="sustainability_btn">
+              <h3>Jak na udržitelný šatník?</h3>
+            </button>
+          </Link>
+        </div>
       </div>
     </>
   );
