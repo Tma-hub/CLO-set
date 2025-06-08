@@ -251,12 +251,12 @@ export const Categories = {
       text: 'šifon',
     },
     {
-      id: '14',
+      id: '15',
       name: 'vlna',
       text: 'vlna',
     },
     {
-      id: '14',
+      id: '16',
       name: 'žerzej',
       text: 'žerzej',
     },
