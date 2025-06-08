@@ -21,7 +21,7 @@ export const HomePage = () => {
         <Weather></Weather>
         <RandomPicks></RandomPicks>
         <AddNew></AddNew>
-        <Link to="select-page">
+        <Link to="/select-page">
           <button className="what__to__wear_btn">
             <h1>Co dnes na sebe?</h1>{' '}
           </button>

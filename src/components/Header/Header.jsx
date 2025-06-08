@@ -14,7 +14,7 @@ export const Header = () => {
           <img src="/img/zpet.png" alt="zpet" width="24" height="24" />
         </button>
         <div className="button_wrapper">
-          <Link to="/">
+          <Link to="/home-page">
             <button className="home">
               <img src="/img/home.png" alt="domu" width="24" height="24" />
             </button>

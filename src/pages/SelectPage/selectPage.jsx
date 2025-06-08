@@ -90,13 +90,9 @@ export const SelectPage = () => {
       <div className="get_data">
         {filteredData.map((item) =>
           item.img ? (
-<<<<<<< HEAD
-            <img key={item.id} src={`/fotky/${item.img}`} alt="" />
-=======
             <Link to={'/selected-item/' + item.id} key={item.id}>
               <img src={`/fotky/${item.img}`} />
             </Link>
->>>>>>> bb74d7f224a67720ed323e6c79f4568d5e37233a
           ) : null,
         )}
       </div>
