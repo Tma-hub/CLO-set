@@ -33,8 +33,8 @@
 }
 
 
-.contaner_sus img {
-  width: 80px;
+.container_sus img {
+  width: 100%;
   height: auto;
 }
 
@@ -78,4 +78,11 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #eaf0ed;
+}
+
+.capsule__closet img,
+.cost__per__wear img,
+.materials img {
+  width: 100px;
+  height: auto;
 }
