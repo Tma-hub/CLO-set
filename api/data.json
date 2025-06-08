@@ -131,7 +131,8 @@
     "material": null,
     "styl": ["casual"],
     "sezona": ["zima"],
-    "delka": "dlouha"
+    "delka": "dlouha",
+    "strih": "volne"
   },
   {
     "id": 12,
