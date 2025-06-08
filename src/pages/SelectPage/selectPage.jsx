@@ -6,16 +6,17 @@ import './selectPage.css';
 import { ImageLink } from '../../components/ImageLink/imageLink';
 
 export const SelectPage = () => {
+  // Klíče ve filtru odpovídají klíčům z Categories s diakritikou
   const [filters, setFilters] = useState({
-    barva: '',
-    odstin: '',
     typ: '',
-    vzor: '',
-    material: '',
     styl: '',
-    sezona: '',
-    delka: '',
-    strih: '',
+    sezóna: '',
+    materiál: '',
+    barva: '',
+    odstín: '',
+    vzor: '',
+    střih: '',
+    délka: '',
   });
 
   const handleChange = (e) => {
@@ -26,11 +27,13 @@ export const SelectPage = () => {
   const filteredData = data.filter((item) => {
     if (filters.typ && item.typ !== filters.typ) return false;
     if (filters.barva && !item.barva?.includes(filters.barva)) return false;
-    if (filters.material && item.material !== filters.material) return false;
+    if (filters.materiál && item.material !== filters.materiál) return false; // Pozor na item.material bez diakritiky
     if (filters.vzor && item.vzor !== filters.vzor) return false;
     if (filters.styl && item.styl !== filters.styl) return false;
-    if (filters.sezona && !item.sezona?.includes(filters.sezona)) return false;
-    if (filters.delka && item.delka !== filters.delka) return false;
+    if (filters.sezóna && !item.sezona?.includes(filters.sezóna)) return false; // Pozor na item.sezona bez diakritiky
+    if (filters.délka && item.delka !== filters.délka) return false; // Pozor na item.delka bez diakritiky
+    if (filters.odstín && item.odstin !== filters.odstín) return false; // Pozor na item.odstin bez diakritiky
+    if (filters.střih && item.strih !== filters.střih) return false; // Pozor na item.strih bez diakritiky
     return true;
   });
 
@@ -47,7 +50,10 @@ export const SelectPage = () => {
       <Header />
       <div className="filters">
         {Object.entries(Categories).map(([category, options]) => (
-          <div className="filter__button" key={category}>
+          <div
+            className={`filter__button ${expanded[category] ? 'expanded' : ''}`}
+            key={category}
+          >
             <h4
               onClick={() => toggleCategory(category)}
               className="filter__title"

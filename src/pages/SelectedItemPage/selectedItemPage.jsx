@@ -10,16 +10,18 @@ export const SelectedItemPage = () => {
   return (
     <>
       <Header />
-      <img className="selectedItem" src={`/fotky/${selectedItem.img}`} />
-      <h2>Hodí se k sobě:</h2>
-      <div className="get_data">
-        {data.length > 0
-          ? data.map((item) =>
-              item.img ? (
-                <img key={item.id} src={`/fotky/${item.img}`}></img>
-              ) : null,
-            )
-          : 'Nic tu neni'}
+      <div className="selectedItemWrapper">
+        <img className="selectedItem" src={`/fotky/${selectedItem.img}`} />
+        <h2>Hodí se k sobě:</h2>
+        <div className="get_data">
+          {data.length > 0
+            ? data.map((item) =>
+                item.img ? (
+                  <img key={item.id} src={`/fotky/${item.img}`} />
+                ) : null,
+              )
+            : 'Nic tu neni'}
+        </div>
       </div>
     </>
   );

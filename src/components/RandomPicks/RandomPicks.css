@@ -4,7 +4,10 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
-  width: 100%;
+  border: solid rgba(126, 126, 131, 1) 2px;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
 }
 
 .picks {
@@ -18,7 +21,7 @@
 }
 
 .picks img {
-  width: 70px;
+  width: 150px;
   height: auto;
   margin: 0;
   padding: 0;
