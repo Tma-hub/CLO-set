@@ -48,7 +48,8 @@
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "kratka",
-    "strih": "slim"
+    "strih": "slim",
+    "img": "bunda_kozena_tmcervena.jpg"
   },
   {
     "id": 5,
@@ -60,7 +61,8 @@
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "kratka",
-    "strih": "slim"
+    "strih": "slim",
+    "img": "bunda_kozena.jpg"
   },
   {
     "id": 6,
@@ -72,19 +74,21 @@
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "kratka",
-    "strih": "regular"
+    "strih": "regular",
+    "img": "bunda_mansestr_bezova.jpg"
   },
   {
     "id": 7,
     "typ": "bunda",
     "barva": ["khaki"],
     "odstin": "tmava",
-    "vzor": "geometricke",
+    "vzor": null,
     "material": null,
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim"],
+    "sezona": ["podzim"],
     "delka": "kratka",
-    "strih": "regular"
+    "strih": "regular",
+    "img": "bunda_prosivana.jpg"
   },
   {
     "id": 8,
@@ -96,7 +100,8 @@
     "styl": ["sportovni"],
     "sezona": ["jaro", "podzim"],
     "delka": "stredni",
-    "strih": "regular"
+    "strih": "regular",
+    "img": "bunda_sportovni.jpg"
   },
   {
     "id": 9,
@@ -108,7 +113,8 @@
     "styl": ["sportovni"],
     "sezona": ["jaro"],
     "delka": "kratka",
-    "strih": "regular"
+    "strih": "regular",
+    "img": "bunda_svruzova.jpg"
   },
   {
     "id": 10,
@@ -120,7 +126,8 @@
     "styl": ["casual"],
     "sezona": ["zima"],
     "delka": "dlouha",
-    "strih": "volne"
+    "strih": "volne",
+    "img": "bunda_zimni_zelena.jpg"
   },
   {
     "id": 11,
@@ -132,7 +139,8 @@
     "styl": ["casual"],
     "sezona": ["zima"],
     "delka": "dlouha",
-    "strih": "volne"
+    "strih": "volne",
+    "img": "parka_dlouha_cerna.jpg"
   },
   {
     "id": 12,
@@ -144,7 +152,8 @@
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "dlouha",
-    "strih": "volne"
+    "strih": "volne",
+    "img": "parka_zelena.jpg"
   },
   {
     "id": 13,
