@@ -1,4 +1,4 @@
-const Categories = {
+export const Categories = {
   barva: [
     {
       id: '1',
