@@ -1,6 +1,7 @@
 import { Title } from '../Title/Title';
 import data from '../../../api/data.json';
 import './RandomPicks.css';
+import { ImageLink } from '../../components/ImageLink/imageLink';
 
 export const RandomPicks = () => {
   const getRandomPicks = (data) => {
@@ -14,9 +15,7 @@ export const RandomPicks = () => {
       <Title sectionTitle={'Náhodný výběr'} />
       <div className="picks">
         {randomPicks.map((pick) =>
-          pick.img ? (
-            <img key={pick.id} src={`/fotky/${pick.img}`}></img>
-          ) : null,
+          pick.img ? <ImageLink key={pick.id} item={pick} /> : null,
         )}
       </div>
     </div>
