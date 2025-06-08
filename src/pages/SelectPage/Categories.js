@@ -62,7 +62,7 @@ export const Categories = {
       text: 'šedá',
     },
   ],
-  odstin: [
+  odstín: [
     {
       id: '1',
       name: 'svetly',
@@ -184,7 +184,7 @@ export const Categories = {
       text: 'abstraktní',
     },
   ],
-  material: [
+  materiál: [
     {
       id: '1',
       name: 'polester',
@@ -283,7 +283,7 @@ export const Categories = {
       text: 'společenské',
     },
   ],
-  sezona: [
+  sezóna: [
     {
       id: '1',
       name: 'jaro',
@@ -305,7 +305,7 @@ export const Categories = {
       text: 'zima',
     },
   ],
-  delka: [
+  délka: [
     {
       id: '1',
       name: 'kratka',
@@ -322,7 +322,7 @@ export const Categories = {
       text: 'dlouhé',
     },
   ],
-  strih: [
+  střih: [
     {
       id: '1',
       name: 'slim',

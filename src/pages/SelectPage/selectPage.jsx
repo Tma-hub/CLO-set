@@ -16,6 +16,7 @@ export const SelectPage = () => {
     delka: '',
     strih: '',
   });
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFilters((prev) => ({ ...prev, [name]: value }));
@@ -32,33 +33,63 @@ export const SelectPage = () => {
     return true;
   });
 
+  const [expanded, setExpanded] = useState({});
+  const toggleCategory = (category) => {
+    setExpanded((prev) => ({
+      ...prev,
+      [category]: !prev[category],
+    }));
+  };
+
   return (
     <>
-      <Header></Header>
-
+      <Header />
       <div className="filters">
         {Object.entries(Categories).map(([category, options]) => (
           <div className="filter__button" key={category}>
-            <h4>{category}</h4>
-            {options.map((option) => (
-              <label key={option.name}>
+            <h4
+              onClick={() => toggleCategory(category)}
+              className="filter__title"
+            >
+              <span>{category}</span>
+              <span className="arrow">{expanded[category] ? '▲' : '▼'}</span>
+            </h4>
+            <div
+              className={`filter__options ${
+                expanded[category] ? 'expanded' : 'collapsed'
+              }`}
+            >
+              <label>
                 <input
                   type="radio"
-                  name={option.name}
-                  value={option.name}
-                  checked={filters[category] === option.name}
+                  name={category}
+                  value=""
+                  checked={filters[category] === ''}
                   onChange={handleChange}
                 />
-                {option.text}
+                vše
               </label>
-            ))}
+              {options.map((option) => (
+                <label key={option.name}>
+                  <input
+                    type="radio"
+                    name={category}
+                    value={option.name}
+                    checked={filters[category] === option.name}
+                    onChange={handleChange}
+                  />
+                  {option.text}
+                </label>
+              ))}
+            </div>
           </div>
         ))}
       </div>
+
       <div className="get_data">
         {filteredData.map((item) =>
           item.img ? (
-            <img key={item.id} src={`/fotky/${item.img}`}></img>
+            <img key={item.id} src={`/fotky/${item.img}`} alt="" />
           ) : null,
         )}
       </div>
