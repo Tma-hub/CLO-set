@@ -1,8 +1,9 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Header } from '../../components/Header/Header';
+import { Categories } from './Categories';
 import data from '../../../api/data.json';
 import './selectPage.css';
-import { Categories } from './Categories';
-import { useState } from 'react';
 
 export const SelectPage = () => {
   const [filters, setFilters] = useState({
@@ -89,7 +90,13 @@ export const SelectPage = () => {
       <div className="get_data">
         {filteredData.map((item) =>
           item.img ? (
+<<<<<<< HEAD
             <img key={item.id} src={`/fotky/${item.img}`} alt="" />
+=======
+            <Link to={'/selected-item/' + item.id} key={item.id}>
+              <img src={`/fotky/${item.img}`} />
+            </Link>
+>>>>>>> bb74d7f224a67720ed323e6c79f4568d5e37233a
           ) : null,
         )}
       </div>
