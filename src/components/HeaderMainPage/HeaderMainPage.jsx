@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './HeaderMainPage.css';
+import { Menu } from '../Menu/Menu';
 
 export const HeaderMainPage = () => {
   return (
@@ -18,16 +19,7 @@ export const HeaderMainPage = () => {
               <img src="/img/user.png" alt="uzivatel" width="24" height="24" />
             </button>
           </div>
-          <div className="menu">
-            <button>
-              <img
-                src="/img/hamburger.png"
-                alt="uzivatel"
-                width="24"
-                height="24"
-              />
-            </button>
-          </div>
+          <Menu></Menu>
         </div>
       </div>
     </section>
