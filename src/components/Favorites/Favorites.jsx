@@ -7,7 +7,7 @@ export const Favorites = () => {
     <div className="favorites__container">
       <section className="favorites">
         <Title sectionTitle={'Oblíbené outfity'} />
-        <FavoritePicks />
+        <FavoritePicks  />
       </section>
     </div>
   );
