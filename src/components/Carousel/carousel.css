@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.div {
+  background-image: linear-gradient(to right, #d4d3d4, #dddddd);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.h1 {
+  color: black;
+  font-size: larger;
+  text-align: center;
+  position: center;
+  font-family: "Rajdhani", sans-serif;
+  ;
+
+}
+
+
+
+#next,
+#prev {
+  position: absolute;
+  top: 40%;
+  color: #0c0c0c;
+  background-color: transparent;
+  border: none;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  left: 50px;
+}
+
+#next {
+  left: unset;
+  right: 50px;
+}
