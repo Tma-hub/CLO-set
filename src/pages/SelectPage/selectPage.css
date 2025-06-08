@@ -1,0 +1,14 @@
+.get_data img {
+
+  width: 70px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.get_data {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

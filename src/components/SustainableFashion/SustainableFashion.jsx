@@ -3,7 +3,7 @@ import './SustainableFashion.css';
 export const SustainableFashion = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container_sus">
         <img src="/img/sustainable_fashion.png" alt="Udržitená móda" />
       </div>
       <div className="capsule__closet">

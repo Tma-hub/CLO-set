@@ -23,16 +23,17 @@
   color: white;
 }
 
+.cost__per__wear h1,
+.cost__per__wear p {
+  color: rgba(103, 126, 116, 1)
+}
+
 .cost__per__wear {
   background-color: white;
-  color: #333;
 }
 
-.sustainable_fashion_img {
-  flex-shrink: 0;
-}
 
-.sustainable_fashion_img img {
+.contaner_sus img {
   width: 180px;
   height: auto;
   border-radius: 8px;
@@ -52,7 +53,7 @@
   text-align: left;
 }
 
-.cost__per__wear .sustainable_fashion_img {
+.cost__per__wear {
   order: 1;
 }
 
@@ -73,15 +74,9 @@ p {
   margin: 0;
 }
 
-.container {
-  height: 15vh;
+.container_sus {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #eaf0ed;
-}
-
-.container img {
-  height: 100%;
-  object-fit: contain;
 }
