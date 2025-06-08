@@ -12,25 +12,6 @@ const compareData = (item, example) => {
   for (const key in example) {
     const itemValue = item[key];
     const exampleValue = example[key];
-    if (Array.isArray(itemValue) && Array.isArray(exampleValue)) {
-      return itemValue.some(
-        (itemValueItem) => exampleValue.indexOf(itemValueItem) >= 0,
-      );
-    }
-    if (Array.isArray(itemValue) || Array.isArray(exampleValue)) {
-      return false;
-    }
-    if (itemValue !== exampleValue) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const compareDataRelaxed = (item, example) => {
-  for (const key in example) {
-    const itemValue = item[key];
-    const exampleValue = example[key];
     if (Array.isArray(itemValue)) {
       if (Array.isArray(exampleValue)) {
         return itemValue.some(
