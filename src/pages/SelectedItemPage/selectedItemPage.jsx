@@ -12,7 +12,7 @@ export const SelectedItemPage = () => {
       <Header />
       <div className="selectedItemWrapper">
         <img className="selectedItem" src={`/fotky/${selectedItem.img}`} />
-        <h2>Hodí se k sobě:</h2>
+        <h2 id="h2">Hodí se k sobě:</h2>
         <div className="get_data">
           {data.length > 0
             ? data.map((item) =>

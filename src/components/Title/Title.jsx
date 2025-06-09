@@ -1,3 +1,7 @@
 export const Title = ({ sectionTitle }) => {
-  return <h2>{sectionTitle}</h2>;
+  return (
+    <div className="sectionTitle">
+      <h2>{sectionTitle}</h2>
+    </div>
+  );
 };
