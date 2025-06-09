@@ -5,18 +5,41 @@ import data from '../../../api/data.json';
 import './selectPage.css';
 import { ImageLink } from '../../components/ImageLink/imageLink';
 
+const categoryLabels = {
+  typ: 'Typ',
+  styl: 'Styl',
+  sezona: 'Sezóna',
+  material: 'Materiál',
+  barva: 'Barva',
+  odstin: 'Odstín',
+  vzor: 'Vzor',
+  strih: 'Střih',
+  delka: 'Délka',
+};
+
+const filterKeyMap = {
+  typ: 'typ',
+  styl: 'styl',
+  sezona: 'sezona',
+  material: 'material',
+  barva: 'barva',
+  odstin: 'odstin',
+  vzor: 'vzor',
+  strih: 'strih',
+  delka: 'delka',
+};
+
 export const SelectPage = () => {
-  // Klíče ve filtru odpovídají klíčům z Categories s diakritikou
   const [filters, setFilters] = useState({
     typ: '',
     styl: '',
-    sezóna: '',
-    materiál: '',
+    sezona: '',
+    material: '',
     barva: '',
-    odstín: '',
+    odstin: '',
     vzor: '',
-    střih: '',
-    délka: '',
+    strih: '',
+    delka: '',
   });
 
   const handleChange = (e) => {
@@ -25,16 +48,16 @@ export const SelectPage = () => {
   };
 
   const filteredData = data.filter((item) => {
-    if (filters.typ && item.typ !== filters.typ) return false;
-    if (filters.barva && !item.barva?.includes(filters.barva)) return false;
-    if (filters.materiál && item.material !== filters.materiál) return false; // Pozor na item.material bez diakritiky
-    if (filters.vzor && item.vzor !== filters.vzor) return false;
-    if (filters.styl && item.styl !== filters.styl) return false;
-    if (filters.sezóna && !item.sezona?.includes(filters.sezóna)) return false; // Pozor na item.sezona bez diakritiky
-    if (filters.délka && item.delka !== filters.délka) return false; // Pozor na item.delka bez diakritiky
-    if (filters.odstín && item.odstin !== filters.odstín) return false; // Pozor na item.odstin bez diakritiky
-    if (filters.střih && item.strih !== filters.střih) return false; // Pozor na item.strih bez diakritiky
-    return true;
+    return Object.entries(filters).every(([key, value]) => {
+      if (!value) return true;
+      const dataKey = filterKeyMap[key];
+      const itemValue = item[dataKey];
+
+      if (Array.isArray(itemValue)) {
+        return itemValue.includes(value);
+      }
+      return itemValue === value;
+    });
   });
 
   const [expanded, setExpanded] = useState({});
@@ -58,7 +81,7 @@ export const SelectPage = () => {
               onClick={() => toggleCategory(category)}
               className="filter__title"
             >
-              <span>{category}</span>
+              <span>{categoryLabels[category]}</span>
               <span className="arrow">{expanded[category] ? '▲' : '▼'}</span>
             </h4>
             <div

@@ -15,6 +15,7 @@
   border-radius: 35px;
   color: rgba(0, 76, 69, 1);
   letter-spacing: 1.5px;
+  font-size: large;
   padding: 1rem;
 
 }
@@ -24,7 +25,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   padding-top: 0.5rem;
-  margin-bottom: 1rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.homepage-container {
+  height: 100vh;
+
 }
