@@ -1,5 +1,5 @@
 .what__to__wear_btn {
-  border: solid rgba(255, 7, 176, 1) 2px;
+  border: solid rgba(255, 7, 176, 1) 4px;
   border-radius: 50px;
 }
 
@@ -12,6 +12,7 @@
 
 .sustainability_btn {
   border: solid rgba(0, 76, 69, 1)2px;
+  background-color: rgba(230, 239, 235, 1);
   border-radius: 35px;
   color: rgba(0, 76, 69, 1);
   letter-spacing: 1.5px;

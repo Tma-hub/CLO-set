@@ -16,12 +16,12 @@
 }
 
 .weather__mess {
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 
 .weather__mess p {
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .weather__mess h4 {
@@ -40,7 +40,7 @@
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1.1rem;
-  color: rgb(238, 204, 204);
+  color: rgba(255, 7, 176, 1);
 }
 
 .pin {

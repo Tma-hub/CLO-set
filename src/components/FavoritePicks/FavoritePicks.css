@@ -4,6 +4,9 @@
   align-items: center;
   gap: 1rem;
   width: 100%;
+  border: solid grey 2px;
+  padding: 2rem;
+  border-radius: 1.5rem;
 }
 
 .favorite__picks img {
@@ -20,6 +23,5 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin: 0;
+
 }
