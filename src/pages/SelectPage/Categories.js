@@ -9,7 +9,7 @@ export const Categories = {
     { id: '7', name: 'sako', text: 'Sako' },
     { id: '8', name: 'saty', text: 'Šaty' },
     { id: '9', name: 'sukne', text: 'Sukně' },
-    { id: '10', name: 'svetr', text: 'Svetr' },
+    { id: '10', name: 'svetry', text: 'Svetry' },
     { id: '12', name: 'triko', text: 'Triko' },
     { id: '13', name: 'boty', text: 'Boty' },
     { id: '14', name: 'doplnky', text: 'Doplňky' },
@@ -17,8 +17,8 @@ export const Categories = {
   styl: [
     { id: '1', name: 'casual', text: 'Casual' },
     { id: '2', name: 'sportovni', text: 'Sportovní' },
-    { id: '3', name: 'formal', text: 'Formální' },
-    { id: '4', name: 'spolec', text: 'Společenské' },
+    { id: '3', name: 'formalni', text: 'Formální' },
+    { id: '4', name: 'spolecenske', text: 'Společenské' },
   ],
   sezona: [
     { id: '1', name: 'jaro', text: 'Jaro' },
@@ -27,7 +27,7 @@ export const Categories = {
     { id: '4', name: 'zima', text: 'Zima' },
   ],
   material: [
-    { id: '1', name: 'polester', text: 'Polyester' },
+    { id: '1', name: 'polyester', text: 'Polyester' },
     { id: '2', name: 'plise', text: 'Plisé' },
     { id: '3', name: 'bavlna', text: 'Bavlna' },
     { id: '4', name: 'denim', text: 'Denim' },

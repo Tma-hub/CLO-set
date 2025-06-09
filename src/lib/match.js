@@ -1,6 +1,6 @@
 import data from '../../api/data.json';
 
-const vrchniDily = ['halenka', 'kosile', 'svetry', 'topy', 'trika'];
+const vrchniDily = ['halenka', 'kosile', 'svetry', 'topy', 'triko'];
 const spodniDily = ['kalhoty', 'kratasy', 'sukne'];
 const svrchniDily = ['kabat', 'sako', 'bunda'];
 const saty = ['saty'];

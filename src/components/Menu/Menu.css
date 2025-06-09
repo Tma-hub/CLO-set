@@ -1,0 +1,33 @@
+.menu {
+  position: relative;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-open {
+  position: absolute;
+  top: 40px;
+  /* nebo podle toho, kde máš tlačítko */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.menu-open a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+.menu-open a:hover {
+  background-color: #f0f0f0;
+}

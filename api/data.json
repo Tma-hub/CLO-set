@@ -834,19 +834,7 @@
     "strih": "regular",
     "img": "kosile_svmodra_pruh.jpg"
   },
-  {
-    "id": 65,
-    "typ": "kosile",
-    "barva": ["modra"],
-    "odstin": "tmavy",
-    "vzor": null,
-    "material": "krajka",
-    "styl": ["casual"],
-    "sezona": ["jaro", "leto"],
-    "delka": "stredni",
-    "strih": "volny",
-    "img": "kosile_tmmodra_azura.jpg"
-  },
+
   {
     "id": 65,
     "typ": "kosile",
@@ -1079,7 +1067,7 @@
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sako_cerna_delsi.jpg"
+    "img": "sako_cerne_delsi.jpg"
   },
   {
     "id": 83,
@@ -2448,5 +2436,18 @@
     "delka": "dlouha",
     "strih": "slim",
     "img": "kalhoty_kostka_slim.jpg"
+  },
+  {
+    "id": 187,
+    "typ": "kosile",
+    "barva": ["modra"],
+    "odstin": "tmavy",
+    "vzor": null,
+    "material": "krajka",
+    "styl": ["casual"],
+    "sezona": ["jaro", "leto"],
+    "delka": "stredni",
+    "strih": "volny",
+    "img": "kosile_tmmodra_azura.jpg"
   }
 ]
