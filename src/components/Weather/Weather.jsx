@@ -41,25 +41,22 @@ export const Weather = () => {
       <Title sectionTitle={'Obleč se do každého počasí'} />
 
       <div className="weather__info">
-        <div className="weather__mess">
-          <p>
-            <strong>
-              {weather.location.name}, {weather.location.country}
-            </strong>
-          </p>
-          <p>Teplota: {weather.current.temp_c} °C</p>
-          <p>Podmínky: {weather.current.condition.text}</p>
-          <p>
-            Vítr: {weather.current.wind_kph} km/h, směr{' '}
-            {weather.current.wind_dir}
-          </p>
-        </div>
-
+        {' '}
         <div className="weather__img">
           <img
             src={weather.current.condition.icon}
             alt={weather.current.condition.text}
           />
+        </div>
+        <div className="weather__mess">
+          <p>
+            <strong>
+              {' '}
+              <img className="pin" src="/img/pin.png" alt="pin" />
+              {weather.location.name}, {weather.location.country}
+            </strong>
+            , {weather.current.condition.text}, {weather.current.temp_c} °C
+          </p>
         </div>
       </div>
 

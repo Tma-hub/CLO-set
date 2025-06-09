@@ -4,9 +4,9 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
-  border: solid rgba(126, 126, 131, 1) 2px;
+  /*border: solid rgba(126, 126, 131, 1) 2px;border-radius: 20px;*/
   padding: 1rem;
-  border-radius: 20px;
+
 }
 
 .picks {

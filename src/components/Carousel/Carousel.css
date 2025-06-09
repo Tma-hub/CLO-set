@@ -16,7 +16,7 @@
 }
 
 .h1 {
-  color: black;
+  color: rgb(74, 74, 74);
   font-size: larger;
   text-align: center;
   position: center;
@@ -31,12 +31,13 @@
 #prev {
   position: absolute;
   top: 40%;
-  color: #0c0c0c;
+  color: #7e7e7e;
   background-color: transparent;
   border: none;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  opacity: 30%;
 }
 
 #prev {

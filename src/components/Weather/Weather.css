@@ -10,10 +10,9 @@
 
 .weather__info {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 8rem;
 }
 
 .weather__mess {
@@ -27,12 +26,13 @@
 
 .weather__mess h4 {
   text-align: center;
+
 }
 
 .weather__img img {
   filter: grayscale(100%);
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
 }
 
 .weather__tip {
@@ -40,4 +40,11 @@
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1.1rem;
+  color: rgb(238, 204, 204);
+}
+
+.pin {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.5rem;
 }
