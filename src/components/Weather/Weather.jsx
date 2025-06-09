@@ -39,6 +39,7 @@ export const Weather = () => {
   return (
     <div className="weather">
       <Title sectionTitle={'Obleč se do každého počasí'} />
+
       <div className="weather__info">
         <div className="weather__mess">
           <p>
@@ -51,8 +52,9 @@ export const Weather = () => {
           <p>
             Vítr: {weather.current.wind_kph} km/h, směr{' '}
             {weather.current.wind_dir}
-          </p>{' '}
+          </p>
         </div>
+
         <div className="weather__img">
           <img
             src={weather.current.condition.icon}
@@ -60,6 +62,12 @@ export const Weather = () => {
           />
         </div>
       </div>
+
+      <h4 className="weather__tip">
+        {weather.current.temp_c <= 18
+          ? 'Je chladněji, vezmi si dnes vrstvu navíc.'
+          : 'Dnes je teplo, bundu můžeš nechat doma.'}
+      </h4>
     </div>
   );
 };
