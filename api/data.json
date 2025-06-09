@@ -519,7 +519,7 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "volny",
-    "img": "kalhoty_bile_formal.jpg"
+    "img": "kalhoty_bile_fomal.jpg"
   },
   {
     "id": 41,
@@ -1027,7 +1027,7 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "kratasy_ssede_formal.jpg"
+    "img": "kratasy_sede_formal.jpg"
   },
   {
     "id": 79,
@@ -1365,7 +1365,7 @@
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "sukne_saten_ruzová_kratka.jpg"
+    "img": "sukne_saten_ruzova_kratka.jpg"
   },
   {
     "id": 105,
@@ -1768,7 +1768,7 @@
     "sezona": ["leto"],
     "delka": "dlouha",
     "strih": "volny",
-    "img": "saty_tmmodra.azura.jpg"
+    "img": "saty_tmmodra_azura.jpg"
   },
   {
     "id": 136,
