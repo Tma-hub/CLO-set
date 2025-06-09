@@ -4,8 +4,8 @@ import { Weather } from '../../components/Weather/Weather';
 import { RandomPicks } from '../../components/RandomPicks/RandomPicks';
 import { AddNew } from '../../components/AddNew/AddNew';
 import { Favorites } from '../../components/Favorites/Favorites';
-
 import './style.css';
+
 export const HomePage = () => {
   return (
     <div className="homepage-container">
