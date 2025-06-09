@@ -571,7 +571,7 @@
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "kalhoty_kkrep_modrobila_kvetinovy.jpg"
+    "img": "kalhoty_krep_modrobila_kvetinovy.jpg"
   },
   {
     "id": 45,
@@ -1625,7 +1625,7 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "volny",
-    "img": "saty_cerné_balon.jpg"
+    "img": "saty_cerne_balon.jpg"
   },
   {
     "id": 125,
