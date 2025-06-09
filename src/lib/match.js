@@ -1,10 +1,9 @@
 import data from '../../api/data.json';
 
-const vrchniDily = ['halenka', 'kosile', , 'svetry', 'topy', 'trika'];
+const vrchniDily = ['halenka', 'kosile', 'svetry', 'topy', 'trika'];
 const spodniDily = ['kalhoty', 'kratasy', 'sukne'];
 const svrchniDily = ['kabat', 'sako', 'bunda'];
 const saty = ['saty'];
-
 
 export const getData = () => {
   return data;
@@ -47,6 +46,9 @@ export const filterData = (example) => {
 
 const matchArray = (userSelection, candidate, comparator) => {
   let result = false;
+
+  if (!userSelection || !candidate) return false; // OŠETŘENÍ PROTI null
+
   userSelection.forEach((userSelectionItem) => {
     candidate.forEach((candidateItem) => {
       const singleResult = comparator(userSelectionItem, candidateItem);
