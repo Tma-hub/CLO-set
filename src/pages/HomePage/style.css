@@ -1,6 +1,7 @@
 .what__to__wear_btn {
   border: solid rgba(255, 7, 176, 1) 4px;
   border-radius: 50px;
+  margin-bottom: 1rem;
 }
 
 .what__to__wear_btn h1 {
@@ -18,6 +19,7 @@
   letter-spacing: 1.5px;
   font-size: large;
   padding: 1rem;
+  margin-top: 1rem;
 
 }
 
@@ -30,6 +32,7 @@
   padding-top: 0.5rem;
   flex: 1;
   overflow-y: auto;
+  padding-bottom: 0.5rem;
 }
 
 .homepage-container {

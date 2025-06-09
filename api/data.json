@@ -158,15 +158,15 @@
   {
     "id": 13,
     "typ": "bunda",
-    "barva": ["zelena", "khaki"],
-    "odstin": "tmavy",
+    "barva": ["zluta"],
+    "odstin": "svetly",
     "vzor": null,
     "material": null,
-    "styl": ["casual"],
-    "sezona": ["jaro"],
-    "delka": "dlouha",
+    "styl": ["sportovni"],
+    "sezona": ["jaro", "podzim "],
+    "delka": "stredni",
     "strih": "volny",
-    "img": null
+    "img": "bunda_zluta_sportovni.jpg"
   },
   {
     "id": 14,
@@ -628,15 +628,15 @@
   {
     "id": 49,
     "typ": "kalhoty",
-    "barva": ["cerna"],
+    "barva": ["modra"],
     "odstin": "tmavy",
-    "vzor": null,
-    "material": "bavlna",
+    "vzor": "pruhovane",
+    "material": "len",
     "styl": ["casual"],
-    "sezona": ["jaro", "podzim"],
+    "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": null
+    "strih": "volny",
+    "img": "kalhoty_pruhovane.jpg"
   },
   {
     "id": 50,
@@ -667,15 +667,15 @@
   {
     "id": 52,
     "typ": "kalhoty",
-    "barva": ["ruzova"],
+    "barva": ["cerna", "bezova", "hneda"],
     "odstin": "svetly",
-    "vzor": null,
+    "vzor": "zvireci",
     "material": "bavlna",
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": null
+    "strih": "volny",
+    "img": "kalhoty_zvireci.jpg"
   },
   {
     "id": 53,
