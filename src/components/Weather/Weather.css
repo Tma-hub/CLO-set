@@ -3,21 +3,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  gap: 10px;
 }
 
-.weather-info {
+.weather__info {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2px;
 }
 
 
-.weather-info img {
+.weather__mess p {
+  margin: 4px 0;
+}
+
+.weather__img img {
   filter: grayscale(100%);
   width: 80px;
   height: 80px;

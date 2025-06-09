@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Title } from '../Title/Title';
+import './Weather.css';
 
 export const Weather = () => {
   const [weather, setWeather] = useState(null);
@@ -38,22 +39,26 @@ export const Weather = () => {
   return (
     <div className="weather">
       <Title sectionTitle={'Obleč se do každého počasí'} />
-
-      <div className="weather-info">
-        <p>
-          <strong>
-            {weather.location.name}, {weather.location.country}
-          </strong>
-        </p>
-        <p>Teplota: {weather.current.temp_c} °C</p>
-        <p>Podmínky: {weather.current.condition.text}</p>
-        <p>
-          Vítr: {weather.current.wind_kph} km/h, směr {weather.current.wind_dir}
-        </p>
-        <img
-          src={weather.current.condition.icon}
-          alt={weather.current.condition.text}
-        />
+      <div className="weather__info">
+        <div className="weather__mess">
+          <p>
+            <strong>
+              {weather.location.name}, {weather.location.country}
+            </strong>
+          </p>
+          <p>Teplota: {weather.current.temp_c} °C</p>
+          <p>Podmínky: {weather.current.condition.text}</p>
+          <p>
+            Vítr: {weather.current.wind_kph} km/h, směr{' '}
+            {weather.current.wind_dir}
+          </p>{' '}
+        </div>
+        <div className="weather__img">
+          <img
+            src={weather.current.condition.icon}
+            alt={weather.current.condition.text}
+          />
+        </div>
       </div>
     </div>
   );
