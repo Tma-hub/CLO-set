@@ -843,7 +843,7 @@
     "material": "krajka",
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
-    "delka": "kratka",
+    "delka": "stredni",
     "strih": "volny",
     "img": "kosile_tmmodra_azura.jpg"
   },
