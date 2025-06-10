@@ -7,9 +7,9 @@ import { Title } from '../Title/Title'; // Předpokládám cestu k vaší Title 
 
 const clothes = [
   { id: 1, name: 'bunda', image: '/img/bunda_grey.png' },
-  { id: 2, name: 'triko', image: '/img/triko_grey.png' },
+  { id: 2, name: 'halenka', image: '/img/halenka_grey.png' },
   { id: 3, name: 'doplnky', image: '/img/doplnky_grey.png' },
-  { id: 4, name: 'halenka', image: '/img/halenka_grey.png' },
+  { id: 4, name: 'triko', image: '/img/triko_grey.png' },
   { id: 5, name: 'kabat', image: '/img/kabat_grey.png' },
   { id: 6, name: 'kabelka', image: '/img/kabelka_grey.png' },
   { id: 7, name: 'kalhoty', image: '/img/kalhoty_grey.png' },
