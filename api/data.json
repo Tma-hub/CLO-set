@@ -180,8 +180,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_bila_3_4.jpg"
-    "strih": "regular",
-    "img": "halenka_bila_3_4.jpg"
   },
   {
     "id": 15,
@@ -193,8 +191,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "halenka_bila.jpg"
     "strih": "regular",
     "img": "halenka_bila.jpg"
   },
@@ -210,8 +206,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_bordo.jpg"
-    "strih": "regular",
-    "img": "halenka_bordo.jpg"
   },
   {
     "id": 17,
@@ -223,8 +217,6 @@
     "styl": ["casual", "spolecenske"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "slim",
-    "img": "halenka_cerna_kratka.jpg"
     "strih": "slim",
     "img": "halenka_cerna_kratka.jpg"
   },
@@ -240,8 +232,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_cerna_volan.jpg"
-    "strih": "regular",
-    "img": "halenka_cerna_volan.jpg"
   },
   {
     "id": 19,
@@ -255,8 +245,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_cernobila_puntiky.jpg"
-    "strih": "regular",
-    "img": "halenka_cernobila_puntiky.jpg"
   },
   {
     "id": 20,
@@ -268,8 +256,6 @@
     "styl": ["casual", "spolecenske"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "halenka_cernobila_vzor.jpg"
     "strih": "regular",
     "img": "halenka_cernobila_vzor.jpg"
   },
@@ -298,8 +284,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_khaki_muselin.jpg"
-    "strih": "regular",
-    "img": "halenka_khaki_muselin.jpg"
   },
   {
     "id": 23,
@@ -311,8 +295,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "halenka_leopardi.jpg"
     "strih": "regular",
     "img": "halenka_leopardi.jpg"
   },
@@ -328,8 +310,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_modra_len.jpg"
-    "strih": "regular",
-    "img": "halenka_modra_len.jpg"
   },
   {
     "id": 25,
@@ -341,8 +321,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "halenka_modra_pruh.jpg"
     "strih": "regular",
     "img": "halenka_modra_pruh.jpg"
   },
@@ -358,8 +336,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_ruzova_azura.jpg"
-    "strih": "regular",
-    "img": "halenka_ruzova_azura.jpg"
   },
   {
     "id": 27,
@@ -373,8 +349,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "halenka_ruzova_saten.jpg"
-    "strih": "regular",
-    "img": "halenka_ruzova_saten.jpg"
   },
   {
     "id": 28,
@@ -386,8 +360,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "halenka_zelenobila_vzor.jpg"
     "strih": "regular",
     "img": "halenka_zelenobila_vzor.jpg"
   },
@@ -404,8 +376,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kabat_bezovy.jpg"
-    "strih": "regular",
-    "img": "kabat_bezovy.jpg"
   },
   {
     "id": 30,
@@ -419,8 +389,6 @@
     "delka": "stredni",
     "strih": "regular",
     "img": "kabat_cerny_kratky.jpg"
-    "strih": "regular",
-    "img": "kabat_cerny_kratky.jpg"
   },
   {
     "id": 31,
@@ -432,8 +400,6 @@
     "styl": ["casual"],
     "sezona": ["podzim", "zima"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kabat_hneda.jpg"
     "strih": "regular",
     "img": "kabat_hneda.jpg"
   },
@@ -462,8 +428,6 @@
     "delka": "stredni",
     "strih": "regular",
     "img": "kabat_tmseda.jpg"
-    "strih": "regular",
-    "img": "kabat_tmseda.jpg"
   },
   {
     "id": 34,
@@ -475,8 +439,6 @@
     "styl": ["casual"],
     "sezona": ["podzim", "jaro"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "trenckot_hnedy_kratky.jpg"
     "strih": "regular",
     "img": "trenckot_hnedy_kratky.jpg"
   },
@@ -492,8 +454,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "trenckot_kratky_bezovy.jpg"
-    "strih": "regular",
-    "img": "trenckot_kratky_bezovy.jpg"
   },
   {
     "id": 36,
@@ -505,8 +465,6 @@
     "styl": ["casual"],
     "sezona": ["jaro"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "trenckot_zeleny.jpg"
     "strih": "regular",
     "img": "trenckot_zeleny.jpg"
   },
@@ -536,8 +494,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "dziny.jpg"
-    "strih": "regular",
-    "img": "dziny.jpg"
   },
   {
     "id": 39,
@@ -549,8 +505,6 @@
     "styl": ["casual"],
     "sezona": ["jaro"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kalhoty_bezove.jpg"
     "strih": "regular",
     "img": "kalhoty_bezove.jpg"
   },
@@ -579,8 +533,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kalhoty_cerne_denim.jpg"
-    "strih": "regular",
-    "img": "kalhoty_cerne_denim.jpg"
   },
   {
     "id": 42,
@@ -592,8 +544,6 @@
     "styl": ["formalni"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kalhoty_cerne_formal.jpg"
     "strih": "regular",
     "img": "kalhoty_cerne_formal.jpg"
   },
@@ -609,8 +559,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kalhoty_denim_sede.jpg"
-    "strih": "regular",
-    "img": "kalhoty_denim_sede.jpg"
   },
   {
     "id": 44,
@@ -624,8 +572,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kalhoty_krep_modrobila_kvetinovy.jpg"
-    "strih": "regular",
-    "img": "kalhoty_krep_modrobila_kvetinovy.jpg"
   },
   {
     "id": 45,
@@ -637,8 +583,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kalhoty_saten_hneda.jpg"
     "strih": "regular",
     "img": "kalhoty_saten_hneda.jpg"
   },
@@ -667,8 +611,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kalhoty_sede_formal.jpg"
-    "strih": "regular",
-    "img": "kalhoty_sede_formal.jpg"
   },
   {
     "id": 48,
@@ -680,8 +622,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kalhoty.jpg"
     "strih": "regular",
     "img": "kalhoty.jpg"
   },
@@ -708,8 +648,6 @@
     "styl": ["sportovni"],
     "sezona": null,
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "leginy_hnede_siroke.jpg"
     "strih": "regular",
     "img": "leginy_hnede_siroke.jpg"
   },
@@ -751,8 +689,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "leginy.jpg"
-    "strih": "regular",
-    "img": "leginy.jpg"
   },
 
   {
@@ -780,8 +716,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kosile_bavlna_ruzova.jpg"
-    "strih": "regular",
-    "img": "kosile_bavlna_ruzova.jpg"
   },
   {
     "id": 56,
@@ -793,8 +727,6 @@
     "styl": ["formalni"],
     "sezona": ["jaro", "leto", "podzim", "zima"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kosile_bila_basic.jpg"
     "strih": "regular",
     "img": "kosile_bila_basic.jpg"
   },
@@ -810,8 +742,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kosile_bila_prouzek.jpg"
-    "strih": "regular",
-    "img": "kosile_bila_prouzek.jpg"
   },
   {
     "id": 58,
@@ -823,8 +753,6 @@
     "styl": ["formalni"],
     "sezona": ["jaro", "podzim", "zima"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kosile_bila_pruh_saten.jpg"
     "strih": "regular",
     "img": "kosile_bila_pruh_saten.jpg"
   },
@@ -840,8 +768,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kosile_denim_seda.jpg"
-    "strih": "regular",
-    "img": "kosile_denim_seda.jpg"
   },
   {
     "id": 60,
@@ -853,8 +779,6 @@
     "styl": ["formalni"],
     "sezona": ["jaro", "podzim", "zima"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kosile_kremova_saten.jpg"
     "strih": "regular",
     "img": "kosile_kremova_saten.jpg"
   },
@@ -870,8 +794,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "kosile_len_bezova_formalni.jpg"
-    "strih": "regular",
-    "img": "kosile_len_bezova_formalni.jpg"
   },
   {
     "id": 62,
@@ -883,8 +805,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kosile_len_zelena.jpg"
     "strih": "regular",
     "img": "kosile_len_zelena.jpg"
   },
@@ -900,8 +820,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kosile_modra_bavlna.jpg"
-    "strih": "regular",
-    "img": "kosile_modra_bavlna.jpg"
   },
   {
     "id": 64,
@@ -913,8 +831,6 @@
     "styl": ["casual"],
     "sezona": ["jaro"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kosile_svmodra_pruh.jpg"
     "strih": "regular",
     "img": "kosile_svmodra_pruh.jpg"
   },
@@ -944,8 +860,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kosile.jpg"
-    "strih": "regular",
-    "img": "kosile.jpg"
   },
   {
     "id": 66,
@@ -957,8 +871,6 @@
     "styl": ["casual"],
     "sezona": ["leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kratasy_bavlna_pruh.jpg"
     "strih": "regular",
     "img": "kratasy_bavlna_pruh.jpg"
   },
@@ -1000,8 +912,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy_bordo.jpg"
-    "strih": "regular",
-    "img": "kratasy_bordo.jpg"
   },
   {
     "id": 70,
@@ -1015,8 +925,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy_cerne_formal.jpg"
-    "strih": "regular",
-    "img": "kratasy_cerne_formal.jpg"
   },
   {
     "id": 71,
@@ -1028,8 +936,6 @@
     "styl": ["sportovni"],
     "sezona": null,
     "delka": "kratka",
-    "strih": "slim",
-    "img": "kratasy_cerne_sportovni.jpg"
     "strih": "slim",
     "img": "kratasy_cerne_sportovni.jpg"
   },
@@ -1058,8 +964,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy_denim_bile.jpg"
-    "strih": "regular",
-    "img": "kratasy_denim_bile.jpg"
   },
   {
     "id": 74,
@@ -1071,8 +975,6 @@
     "styl": ["casual"],
     "sezona": ["leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kratasy_denim_cerne.jpg"
     "strih": "regular",
     "img": "kratasy_denim_cerne.jpg"
   },
@@ -1088,8 +990,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy_lnene_bezova.jpg"
-    "strih": "regular",
-    "img": "kratasy_lnene_bezova.jpg"
   },
   {
     "id": 76,
@@ -1101,8 +1001,6 @@
     "styl": ["casual"],
     "sezona": ["leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kratasy_lnene_modra.jpg"
     "strih": "regular",
     "img": "kratasy_lnene_modra.jpg"
   },
@@ -1118,8 +1016,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy_sportovni_zelena.jpg"
-    "strih": "regular",
-    "img": "kratasy_sportovni_zelena.jpg"
   },
   {
     "id": 78,
@@ -1131,8 +1027,6 @@
     "styl": ["formalni"],
     "sezona": ["leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kratasy_sede_formal.jpg"
     "strih": "regular",
     "img": "kratasy_sede_formal.jpg"
   },
@@ -1148,8 +1042,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "kratasy.jpg"
-    "strih": "regular",
-    "img": "kratasy.jpg"
   },
   {
     "id": 80,
@@ -1163,8 +1055,6 @@
     "delka": "kratka",
     "strih": "regular",
     "img": "blejzr_kremova_bukle.jpg"
-    "strih": "regular",
-    "img": "blejzr_kremova_bukle.jpg"
   },
   {
     "id": 81,
@@ -1176,8 +1066,6 @@
     "styl": ["formalni", "casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "sako_cerna_prilehave.jpg"
     "strih": "regular",
     "img": "sako_cerna_prilehave.jpg"
   },
@@ -1204,8 +1092,6 @@
     "styl": ["formalni", "casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "sako_cerne.jpg"
     "strih": "regular",
     "img": "sako_cerne.jpg"
   },
@@ -1337,7 +1223,6 @@
     "sezona": ["leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_ruzova.jpg"
     "img": "vesta_ruzova.jpg"
   },
   {
@@ -1715,7 +1600,6 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_pletena_bila.jpg"
     "img": "vesta_pletena_bila.jpg"
   },
   {
