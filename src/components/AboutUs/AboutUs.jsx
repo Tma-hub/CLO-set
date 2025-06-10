@@ -7,12 +7,12 @@ export const AboutUs = () => {
           <img src="/img/tereza.JPG" alt="tereza" />
         </div>
         <p>
-          Ahoj, já jsem Tereza. Věnuji tvorbě oděvů, především sportovních, ale
-          ve volném čase mě v teď kromě sportů nejvíce baví IT - experimentování
-          s AI a vývoj webových aplikací. Do budoucna bych ráda spojila své
-          zkušenosti z oděvního průmyslu s technologiemi třeba formou chytrého
-          oblečení nebo virtuální simulace. Baví mě tvořit věci, které mají
-          smysl a zároveň posouvají hranice tradičních oborů.
+          Ahoj, já jsem Tereza. Věnuji se tvorbě oděvů, především sportovních,
+          ale ve volném čase mě v teď kromě sportů nejvíce baví IT -
+          experimentování s AI a vývoj webových aplikací. Do budoucna bych ráda
+          spojila své zkušenosti z oděvního průmyslu s technologiemi třeba
+          formou chytrého oblečení nebo virtuální simulace. Baví mě tvořit věci,
+          které mají smysl a zároveň posouvají hranice tradičních oborů.
         </p>
       </section>
       <section className="pavlina">

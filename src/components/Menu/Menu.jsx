@@ -28,6 +28,15 @@ export const Menu = () => {
               <h4>O aplikaci</h4>
             </span>
           </Link>
+          <a
+            href="https://tma-hub.github.io/CLO/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>
+              <h4>Doprovodný web</h4>
+            </span>
+          </a>
           <Link to="/about-us">
             <span>
               <h4>O nás</h4>

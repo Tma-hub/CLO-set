@@ -21,9 +21,7 @@ export const About = () => {
           uložit. Pak už jen klikni na tlačítko „Co dnes na sebe“ a aplikace ti
           pomůže najít tvůj vysněný outfit. Nebo můžeš zvolit náhodně vybraný
           kousek, stejně jako některý ze sekce „Oblíbené“. Svoje outfity pak
-          můžeš sdílet na svých oblíbených platformách. Pro podrobnější
-          informace můžete navštívit doprovodnou stránku k aplikaci{' '}
-          <a href="https://tma-hub.github.io/CLO/">zde</a>.
+          můžeš sdílet na svých oblíbených platformách.
         </p>
       </section>
     </div>
