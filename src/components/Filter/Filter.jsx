@@ -1,46 +1,83 @@
-import { Categories } from './Categories';
 import { useState } from 'react';
+import { Categories } from './Categories';
 
-export const Filter = ({ data }) => {
+const categoryLabels = {
+  typ: 'Typ',
+  styl: 'Styl',
+  sezona: 'Sezóna',
+  material: 'Materiál',
+  barva: 'Barva',
+  odstin: 'Odstín',
+  vzor: 'Vzor',
+  strih: 'Střih',
+  delka: 'Délka',
+};
+
+export const Filter = ({ data, onFilter }) => {
   const [filters, setFilters] = useState({
-    barva: '',
-    odstin: '',
     typ: '',
-    vzor: '',
-    material: '',
     styl: '',
     sezona: '',
-    delka: '',
+    material: '',
+    barva: '',
+    odstin: '',
+    vzor: '',
     strih: '',
+    delka: '',
   });
+
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFilters((prev) => ({ ...prev, [name]: value }));
+    const newFilters = { ...filters, [name]: value };
+    setFilters(newFilters);
+    if (onFilter) {
+      const filtered = filterData(data, newFilters);
+      onFilter(filtered);
+    }
   };
 
-  const filteredData = data.filter((item) => {
-    if (filters.typ && item.typ !== filters.typ) return false;
-    if (filters.barva && !item.barva?.includes(filters.barva)) return false;
-    if (filters.material && item.material !== filters.material) return false;
-    if (filters.vzor && item.vzor !== filters.vzor) return false;
-    if (filters.styl && item.styl !== filters.styl) return false;
-    if (filters.sezona && !item.sezona?.includes(filters.sezona)) return false;
-    if (filters.delka && item.delka !== filters.delka) return false;
-    return true;
-  });
+  const filterData = (data, filters) => {
+    return data.filter((item) => {
+      return Object.entries(filters).every(([key, value]) => {
+        if (!value) return true;
+
+        const itemValue = item[key];
+
+        if (Array.isArray(itemValue)) {
+          return itemValue.includes(value);
+        }
+
+        return itemValue === value;
+      });
+    });
+  };
 
   return (
     <div className="filters">
       {Object.entries(Categories).map(([category, options]) => (
         <div className="filter__button" key={category}>
-          <h4>{category}</h4>
+          <h4>{categoryLabels[category] || category}</h4>
+
+          {/* Možnost vše */}
+          <label>
+            <input
+              type="radio"
+              name={category}
+              value=""
+              checked={filters[category] === ''}
+              onChange={handleChange}
+            />
+            Vše
+          </label>
+
+          {/* Ostatní možnosti */}
           {options.map((option) => (
             <label key={option.name}>
               <input
                 type="radio"
-                name={option.name}
+                name={category}
                 value={option.name}
-                /*                checked={filters[category] === option.name} */
+                checked={filters[category] === option.name}
                 onChange={handleChange}
               />
               {option.text}

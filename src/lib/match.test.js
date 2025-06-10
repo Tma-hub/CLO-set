@@ -79,7 +79,7 @@ describe('Testování matcherů', () => {
     [{ typ: 'halenka' }, { typ: 'kalhoty' }, true],
     [{ typ: 'halenka' }, { typ: 'halenka' }, false],
     [{ typ: 'halenka' }, { typ: 'kabat' }, false],
-    [{ typ: 'halenka' }, { typ: 'trika' }, false],
+    [{ typ: 'halenka' }, { typ: 'triko' }, false],
   ]);
 
   testSingleMatcher(matchStyl, [

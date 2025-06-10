@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { HomePage } from './pages/HomePage/index';
 import { AboutPage } from './pages/AboutPage/aboutPage';
+import { AboutUsPage } from './pages/AboutUsPage/aboutUsPage';
 import { SustainabilityPage } from './pages/SustainabilityPage/sustainabilityPage';
 import { SelectPage } from './pages/SelectPage/selectPage';
 import { SelectedItemPage } from './pages/SelectedItemPage/selectedItemPage';
@@ -22,6 +23,7 @@ export const App = () => {
         <Route path="/" element={<OpeningPage />} />
         <Route path="home-page" element={<HomePage />} />
         <Route path="/about-app" element={<AboutPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} />
         <Route path="/select-page" element={<SelectPage />} />
         <Route path="/sustainability" element={<SustainabilityPage />} />
         <Route path="/selected-item/:id" element={<SelectedItemPage />} />

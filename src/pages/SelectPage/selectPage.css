@@ -1,45 +1,63 @@
-.get_data img {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-.get_data {
+.filters {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1rem;
+  margin: 2rem;
+  justify-items: center;
+  align-items: start;
 }
 
 .filter__button {
+  width: 8rem;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   justify-content: center;
   border: 1px solid rgba(126, 126, 131, 1);
-  border-radius: 6px;
-  font-size: large;
-  margin-bottom: 2rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  background-color: white;
+  z-index: 1;
+  transition: none;
+}
+
+.filter__button.expanded {
+  width: auto;
+  border-color: rgba(255, 7, 176, 1);
   padding: 1rem;
+  z-index: 10;
 }
 
 .filter__title {
+  position: relative;
   text-align: center;
   cursor: pointer;
   user-select: none;
   font-weight: bold;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-right: 1.5rem;
+}
+
+.filter__title .arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  line-height: 1;
+  user-select: none;
 }
 
 .filter__options {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-  row-gap: 10px;
-  font-family: the-seasons, sans-serif;
+  font-family: "the-seasons", sans-serif;
   font-weight: 300;
   font-size: small;
   font-style: normal;
   color: rgba(81, 81, 81, 1);
+  gap: 0.3rem;
 }
 
 .filter__options.collapsed {
@@ -52,35 +70,4 @@
 
 input {
   margin-right: 3px;
-}
-
-.filters {
-  display: block;
-  margin: 2rem;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.filter__button h4 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.filter__title {
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  padding-right: 20px;
-}
-
-.filter__title .arrow {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 1rem;
-  line-height: 1;
-  user-select: none;
 }

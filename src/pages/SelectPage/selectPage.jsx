@@ -5,17 +5,41 @@ import data from '../../../api/data.json';
 import './selectPage.css';
 import { ImageLink } from '../../components/ImageLink/imageLink';
 
+const categoryLabels = {
+  typ: 'Typ',
+  styl: 'Styl',
+  sezona: 'Sezóna',
+  material: 'Materiál',
+  barva: 'Barva',
+  odstin: 'Odstín',
+  vzor: 'Vzor',
+  strih: 'Střih',
+  delka: 'Délka',
+};
+
+const filterKeyMap = {
+  typ: 'typ',
+  styl: 'styl',
+  sezona: 'sezona',
+  material: 'material',
+  barva: 'barva',
+  odstin: 'odstin',
+  vzor: 'vzor',
+  strih: 'strih',
+  delka: 'delka',
+};
+
 export const SelectPage = () => {
   const [filters, setFilters] = useState({
-    barva: '',
-    odstin: '',
     typ: '',
-    vzor: '',
-    material: '',
     styl: '',
     sezona: '',
-    delka: '',
+    material: '',
+    barva: '',
+    odstin: '',
+    vzor: '',
     strih: '',
+    delka: '',
   });
 
   const handleChange = (e) => {
@@ -24,14 +48,16 @@ export const SelectPage = () => {
   };
 
   const filteredData = data.filter((item) => {
-    if (filters.typ && item.typ !== filters.typ) return false;
-    if (filters.barva && !item.barva?.includes(filters.barva)) return false;
-    if (filters.material && item.material !== filters.material) return false;
-    if (filters.vzor && item.vzor !== filters.vzor) return false;
-    if (filters.styl && item.styl !== filters.styl) return false;
-    if (filters.sezona && !item.sezona?.includes(filters.sezona)) return false;
-    if (filters.delka && item.delka !== filters.delka) return false;
-    return true;
+    return Object.entries(filters).every(([key, value]) => {
+      if (!value) return true;
+      const dataKey = filterKeyMap[key];
+      const itemValue = item[dataKey];
+
+      if (Array.isArray(itemValue)) {
+        return itemValue.includes(value);
+      }
+      return itemValue === value;
+    });
   });
 
   const [expanded, setExpanded] = useState({});
@@ -47,12 +73,15 @@ export const SelectPage = () => {
       <Header />
       <div className="filters">
         {Object.entries(Categories).map(([category, options]) => (
-          <div className="filter__button" key={category}>
+          <div
+            className={`filter__button ${expanded[category] ? 'expanded' : ''}`}
+            key={category}
+          >
             <h4
               onClick={() => toggleCategory(category)}
               className="filter__title"
             >
-              <span>{category}</span>
+              <span>{categoryLabels[category]}</span>
               <span className="arrow">{expanded[category] ? '▲' : '▼'}</span>
             </h4>
             <div

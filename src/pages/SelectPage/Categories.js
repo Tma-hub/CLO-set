@@ -1,342 +1,84 @@
 export const Categories = {
-  barva: [
-    {
-      id: '1',
-      name: 'bila',
-      text: 'bílá',
-    },
-    {
-      id: '2',
-      name: 'bezova',
-      text: 'béžová',
-    },
-    {
-      id: '3',
-      name: 'hneda',
-      text: 'hnědá',
-    },
-    {
-      id: '4',
-      name: 'cerna',
-      text: 'černá',
-    },
-    {
-      id: '5',
-      name: 'zluta',
-      text: 'žlutá',
-    },
-
-    {
-      id: '6',
-      name: 'oranzova',
-      text: 'oranžová',
-    },
-    {
-      id: '7',
-      name: 'cervena',
-      text: 'červená',
-    },
-    {
-      id: '8',
-      name: 'ruzova',
-      text: 'růžová',
-    },
-    {
-      id: '9',
-      name: 'fialova',
-      text: 'fialová',
-    },
-    {
-      id: '10',
-      name: 'modra',
-      text: 'modrá',
-    },
-    {
-      id: '11',
-      name: 'zelena',
-      text: 'zelená',
-    },
-    {
-      id: '12',
-      name: 'seda',
-      text: 'šedá',
-    },
-  ],
-  odstín: [
-    {
-      id: '1',
-      name: 'svetly',
-      text: 'světlý',
-    },
-    {
-      id: '2',
-      name: 'tmavy',
-      text: 'tmavý',
-    },
-    {
-      id: '3',
-      name: 'neutralni',
-      text: 'neutrální',
-    },
-  ],
-
   typ: [
-    {
-      id: '1',
-      name: 'bunda',
-      text: 'bunda',
-    },
-    {
-      id: '2',
-      name: 'kabat',
-      text: 'kabát',
-    },
-    {
-      id: '3',
-      name: 'halenka',
-      text: 'halenka',
-    },
-    {
-      id: '4',
-      name: 'kalhoty',
-      text: 'kalhoty',
-    },
-    {
-      id: '5',
-      name: 'kosile',
-      text: 'košile',
-    },
-    {
-      id: '6',
-      name: 'kratasy',
-      text: 'kraťasy',
-    },
-    {
-      id: '7',
-      name: 'sako',
-      text: 'sako',
-    },
-    {
-      id: '8',
-      name: 'saty',
-      text: 'šaty',
-    },
-    {
-      id: '9',
-      name: 'sukne',
-      text: 'sukně',
-    },
-    {
-      id: '10',
-      name: 'svetr',
-      text: 'svetr',
-    },
-    {
-      id: '12',
-      name: 'triko',
-      text: 'triko',
-    },
-    {
-      id: '13',
-      name: 'boty',
-      text: 'boty',
-    },
-    {
-      id: '14',
-      name: 'doplnky',
-      text: 'doplňky',
-    },
-  ],
-  vzor: [
-    {
-      id: '1',
-      name: 'pruhy',
-      text: 'pruhované',
-    },
-    {
-      id: '2',
-      name: 'kostky',
-      text: 'kostkované',
-    },
-    {
-      id: '3',
-      name: 'puntik',
-      text: 'puntíkované',
-    },
-    {
-      id: '4',
-      name: 'zvire',
-      text: 'zvířecí',
-    },
-    {
-      id: '5',
-      name: 'kvetiny',
-      text: 'květované',
-    },
-    {
-      id: '6',
-      name: 'geometri',
-      text: 'geometrické',
-    },
-    {
-      id: '7',
-      name: 'abstrakt',
-      text: 'abstraktní',
-    },
-  ],
-  materiál: [
-    {
-      id: '1',
-      name: 'polester',
-      text: 'polyester',
-    },
-    {
-      id: '2',
-      name: 'plise',
-      text: 'plisé',
-    },
-    {
-      id: '3',
-      name: 'bavlna',
-      text: 'bavlna',
-    },
-    {
-      id: '4',
-      name: 'denim',
-      text: 'denim',
-    },
-    {
-      id: '5',
-      name: 'bukle',
-      text: 'buklé',
-    },
-    {
-      id: '6',
-      name: 'fleece',
-      text: 'fleece',
-    },
-    {
-      id: '7',
-      name: 'krajka',
-      text: 'krajka',
-    },
-    {
-      id: '8',
-      name: 'krep',
-      text: 'krep',
-    },
-    {
-      id: '9',
-      name: 'kuze',
-      text: 'kůže',
-    },
-    {
-      id: '10',
-      name: 'saten',
-      text: 'satén',
-    },
-    {
-      id: '12',
-      name: 'len',
-      text: 'len',
-    },
-    {
-      id: '13',
-      name: 'semis',
-      text: 'semiš',
-    },
-    {
-      id: '14',
-      name: 'sifon',
-      text: 'šifon',
-    },
-    {
-      id: '15',
-      name: 'vlna',
-      text: 'vlna',
-    },
-    {
-      id: '16',
-      name: 'žerzej',
-      text: 'žerzej',
-    },
+    { id: '1', name: 'bunda', text: 'Bunda' },
+    { id: '2', name: 'kabat', text: 'Kabát' },
+    { id: '3', name: 'halenka', text: 'Halenka' },
+    { id: '4', name: 'kalhoty', text: 'Kalhoty' },
+    { id: '5', name: 'kosile', text: 'Košile' },
+    { id: '6', name: 'kratasy', text: 'Kraťasy' },
+    { id: '7', name: 'sako', text: 'Sako' },
+    { id: '8', name: 'saty', text: 'Šaty' },
+    { id: '9', name: 'sukne', text: 'Sukně' },
+    { id: '10', name: 'svetry', text: 'Svetry' },
+    { id: '12', name: 'triko', text: 'Triko' },
+    { id: '13', name: 'boty', text: 'Boty' },
+    { id: '14', name: 'doplnky', text: 'Doplňky' },
   ],
   styl: [
-    {
-      id: '1',
-      name: 'casual',
-      text: 'denní nošení',
-    },
-    {
-      id: '2',
-      name: 'sportovni',
-      text: 'sportovní',
-    },
-    {
-      id: '3',
-      name: 'formal',
-      text: 'formální',
-    },
-    {
-      id: '4',
-      name: 'spolec',
-      text: 'společenské',
-    },
+    { id: '1', name: 'casual', text: 'Casual' },
+    { id: '2', name: 'sportovni', text: 'Sportovní' },
+    { id: '3', name: 'formalni', text: 'Formální' },
+    { id: '4', name: 'spolecenske', text: 'Společenské' },
   ],
-  sezóna: [
-    {
-      id: '1',
-      name: 'jaro',
-      text: 'jaro',
-    },
-    {
-      id: '2',
-      name: 'leto',
-      text: 'léto',
-    },
-    {
-      id: '3',
-      name: 'podzim',
-      text: 'podzim',
-    },
-    {
-      id: '4',
-      name: 'zima',
-      text: 'zima',
-    },
+  sezona: [
+    { id: '1', name: 'jaro', text: 'Jaro' },
+    { id: '2', name: 'leto', text: 'Léto' },
+    { id: '3', name: 'podzim', text: 'Podzim' },
+    { id: '4', name: 'zima', text: 'Zima' },
   ],
-  délka: [
-    {
-      id: '1',
-      name: 'kratka',
-      text: 'krátké',
-    },
-    {
-      id: '2',
-      name: 'stred',
-      text: 'střední',
-    },
-    {
-      id: '3',
-      name: 'dlouhe',
-      text: 'dlouhé',
-    },
+  material: [
+    { id: '1', name: 'polyester', text: 'Polyester' },
+    { id: '2', name: 'plise', text: 'Plisé' },
+    { id: '3', name: 'bavlna', text: 'Bavlna' },
+    { id: '4', name: 'denim', text: 'Denim' },
+    { id: '5', name: 'bukle', text: 'Buklé' },
+    { id: '6', name: 'fleece', text: 'Fleece' },
+    { id: '7', name: 'krajka', text: 'Krajka' },
+    { id: '8', name: 'krep', text: 'Krep' },
+    { id: '9', name: 'kuze', text: 'Kůže' },
+    { id: '10', name: 'saten', text: 'Satén' },
+    { id: '12', name: 'len', text: 'Len' },
+    { id: '13', name: 'semis', text: 'Semiš' },
+    { id: '14', name: 'sifon', text: 'Šifon' },
+    { id: '15', name: 'vlna', text: 'Vlna' },
+    { id: '16', name: 'zerzej', text: 'Žerzej' },
   ],
-  střih: [
-    {
-      id: '1',
-      name: 'slim',
-      text: 'slim',
-    },
-    {
-      id: '2',
-      name: 'volne',
-      text: 'volné',
-    },
-    {
-      id: '3',
-      name: 'reg',
-      text: 'regular',
-    },
+  barva: [
+    { id: '1', name: 'bila', text: 'Bílá' },
+    { id: '2', name: 'bezova', text: 'Béžová' },
+    { id: '3', name: 'hneda', text: 'Hnědá' },
+    { id: '4', name: 'cerna', text: 'Černá' },
+    { id: '5', name: 'zluta', text: 'Žlutá' },
+    { id: '6', name: 'oranzova', text: 'Oranžová' },
+    { id: '7', name: 'cervena', text: 'Červená' },
+    { id: '8', name: 'ruzova', text: 'Růžová' },
+    { id: '9', name: 'fialova', text: 'Fialová' },
+    { id: '10', name: 'modra', text: 'Modrá' },
+    { id: '11', name: 'zelena', text: 'Zelená' },
+    { id: '12', name: 'seda', text: 'Šedá' },
+  ],
+  odstin: [
+    { id: '1', name: 'svetly', text: 'Světlý' },
+    { id: '2', name: 'tmavy', text: 'Tmavý' },
+    { id: '3', name: 'neutralni', text: 'Neutrální' },
+  ],
+  vzor: [
+    { id: '1', name: 'pruhovane', text: 'Pruhované' },
+    { id: '2', name: 'kostkovane', text: 'Kostkované' },
+    { id: '3', name: 'puntikovane', text: 'Puntíkované' },
+    { id: '4', name: 'zvireci', text: 'Zvířecí' },
+    { id: '5', name: 'kvetovane', text: 'Květované' },
+    { id: '6', name: 'geometricke', text: 'Geometrické' },
+    { id: '7', name: 'abstraktni', text: 'Abstraktní' },
+  ],
+  strih: [
+    { id: '1', name: 'slim', text: 'Slim' },
+    { id: '2', name: 'volny', text: 'Volné' },
+    { id: '3', name: 'regular', text: 'Regular' },
+  ],
+  delka: [
+    { id: '1', name: 'kratka', text: 'Krátké' },
+    { id: '2', name: 'stredni', text: 'Střední' },
+    { id: '3', name: 'dlouha', text: 'Dlouhé' },
   ],
 };

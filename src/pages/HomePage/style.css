@@ -1,21 +1,25 @@
 .what__to__wear_btn {
-  border: solid rgba(255, 7, 176, 1) 2px;
+  border: solid rgba(255, 7, 176, 1) 4px;
   border-radius: 50px;
+  margin-bottom: 1rem;
 }
 
 .what__to__wear_btn h1 {
   color: rgba(255, 7, 176, 1);
   letter-spacing: 3px;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: x-large;
 }
 
 .sustainability_btn {
   border: solid rgba(0, 76, 69, 1)2px;
+  background-color: rgba(230, 239, 235, 1);
   border-radius: 35px;
   color: rgba(0, 76, 69, 1);
   letter-spacing: 1.5px;
+  font-size: large;
   padding: 1rem;
+  margin-top: 1rem;
 
 }
 
@@ -24,7 +28,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.5rem;
   padding-top: 0.5rem;
-  margin-bottom: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 0.5rem;
+}
+
+.homepage-container {
+  height: 100vh;
+
 }

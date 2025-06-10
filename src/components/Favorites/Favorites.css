@@ -4,6 +4,6 @@
   align-items: center;
   background-color: rgba(217, 217, 217, 1);
   padding: 2rem;
-  border-radius: 6px;
   gap: 2rem;
+  padding: 1rem;
 }
