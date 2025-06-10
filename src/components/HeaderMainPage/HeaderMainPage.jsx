@@ -6,20 +6,16 @@ export const HeaderMainPage = () => {
   return (
     <section className="main__page__header">
       <div className="main__wrapper">
-        <div className="about__app">
-          <Link to="/about-app" className="about-app">
-            <button>
-              <h2>O aplikaci</h2>
-            </button>
-          </Link>
+        <div className="app__logo">
+          <img src="/img/app_logo.png" alt="logo" />
         </div>
         <div className="main__button__wrapper">
           <div className="main__user">
             <button>
-              <img src="/img/user.png" alt="uzivatel" width="24" height="24" />
+              <img src="/img/user.png" alt="uživatel" width="24" height="24" />
             </button>
           </div>
-          <Menu></Menu>
+          <Menu />
         </div>
       </div>
     </section>

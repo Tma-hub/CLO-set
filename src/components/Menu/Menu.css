@@ -6,18 +6,19 @@
   background: none;
   border: none;
   cursor: pointer;
+  padding: 10px;
 }
 
 .menu-open {
   position: absolute;
-  top: 40px;
-  /* nebo podle toho, kde máš tlačítko */
+  top: 50px;
   right: 0;
+  width: 250px;
   background-color: white;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
 
@@ -25,7 +26,8 @@
   display: block;
   text-decoration: none;
   color: black;
-  padding: 5px 10px;
+  font-size: 18px;
+  padding: 10px 0;
 }
 
 .menu-open a:hover {
