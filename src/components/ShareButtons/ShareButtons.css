@@ -1,0 +1,46 @@
+/* src/components/ShareButtons/ShareButtons.css */
+.share-buttons-container {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 20px;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.share-button {
+  background-color: transparent;
+
+  border: 1px solid #ccc;
+
+  border-radius: 50%;
+
+  width: 40px;
+
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+
+}
+
+.share-button:hover {
+  transform: scale(1.1);
+
+  background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.share-button img {
+  width: 24px;
+
+  height: 24px;
+  object-fit: contain;
+
+}
