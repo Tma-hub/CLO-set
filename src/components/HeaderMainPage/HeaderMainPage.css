@@ -5,22 +5,59 @@
 .main__page__header {
   background-color: rgba(217, 217, 217, 1);
   padding: 0.5rem;
-
 }
 
 .main__wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.app__logo img {
+  width: 70px;
+  height: auto;
+  margin-left: 1rem;
 }
 
 .main__button__wrapper {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
-button {
+.main__user button,
+.menu button {
   border: none;
-  text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu-open {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.menu-open a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.menu-open a:hover {
+  background-color: #f0f0f0;
 }
