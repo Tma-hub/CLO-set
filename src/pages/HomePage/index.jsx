@@ -36,13 +36,11 @@ export const HomePage = () => {
           <RandomPicks />
           {}
           <Carousel onAddProduct={handleAddProduct} />
-
           <Link to="/select-page">
             <button className="what__to__wear_btn">
               <h1>Co si vezmeš dnes na sebe?</h1>
             </button>
           </Link>
-          <Favorites />
         </div>
       </div>
     </div>
