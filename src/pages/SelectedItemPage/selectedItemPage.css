@@ -70,3 +70,48 @@ body {
   border: none;
   box-shadow: none;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --main-img-width: 200px;
+    --grid-img-width: 140px;
+  }
+
+  .selectedItemWrapper {
+    padding: 15px;
+  }
+
+  .selectedItemWrapper h1 {
+    font-size: 1.2rem;
+  }
+
+  .selectedItemWrapper p {
+    font-size: 0.95rem;
+  }
+
+  #h2 {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .get_data {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .get_data .image-link-wrapper {
+    width: var(--grid-img-width);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --main-img-width: 160px;
+    --grid-img-width: 120px;
+  }
+
+  .get_data {
+    grid-template-columns: 1fr 1fr;
+  }
+}

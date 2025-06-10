@@ -5,3 +5,26 @@
   margin: 2rem auto;
   padding: 1rem 1.5rem;
 }
+
+@media (max-width: 768px) {
+
+  .about,
+  .how__it__works {
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .about h1,
+  .how__it__works h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .about p,
+  .how__it__works p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}

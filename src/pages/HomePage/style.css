@@ -46,3 +46,39 @@
 .homepage h2 {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .what__to__wear_btn {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .what__to__wear_btn h1 {
+    font-size: large;
+    letter-spacing: 1.5px;
+    padding: 0.3rem;
+  }
+
+  .sustainability_btn {
+    font-size: medium;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-width: 1.5px;
+    border-radius: 25px;
+  }
+
+  .homepage {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .homepage-container {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .homepage h2 {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+}

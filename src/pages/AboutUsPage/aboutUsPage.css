@@ -2,12 +2,14 @@
 .pavlina {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 20px auto 30px auto;
   padding: 20px;
   background-color: #f8f8f8;
   border-radius: 10px;
+  text-align: center;
+  max-width: 800px;
 }
 
 .tereza-img,
@@ -29,12 +31,27 @@
   display: block;
 }
 
-
 .tereza {
   flex-direction: row;
 }
 
 .pavlina {
   flex-direction: row-reverse;
+}
 
+@media (max-width: 768px) {
+
+  .tereza,
+  .pavlina {
+    flex-direction: column !important;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .tereza-img,
+  .pavlina-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
 }
