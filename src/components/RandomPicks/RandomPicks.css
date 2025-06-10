@@ -3,25 +3,18 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 1rem;
   /*border: solid rgba(126, 126, 131, 1) 2px;border-radius: 20px;*/
-  padding: 1rem;
 
 }
 
 .picks {
   display: flex;
   flex-direction: row;
-  gap: 2px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
-  margin: 0;
 }
 
 .picks img {
-  width: 6rem;
+  width: 5rem;
   height: auto;
-  margin: 0;
-  padding: 0;
 }

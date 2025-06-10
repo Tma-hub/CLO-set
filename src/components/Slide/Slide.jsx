@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 import './Slide.css';
+
 const styleActive = {
   transform: 'none',
   zIndex: 1,
@@ -7,7 +8,7 @@ const styleActive = {
   opacity: 1,
 };
 
-export const Slide = ({ slide, slideIndex, activeIndex }) => {
+export const Slide = ({ slide, slideIndex, activeIndex, onClick }) => {
   let style = {};
   if (slideIndex === activeIndex) {
     style = styleActive;
@@ -15,8 +16,8 @@ export const Slide = ({ slide, slideIndex, activeIndex }) => {
     const absDiff = Math.abs(slideIndex - activeIndex);
     style = {
       zIndex: -absDiff,
-      //filter: 'blur(5px)',
-      opacity: absDiff > 2 ? 0 : 0.8,
+
+      opacity: absDiff === 1 ? 0.8 : 0,
     };
 
     if (slideIndex > activeIndex) {
@@ -37,6 +38,9 @@ export const Slide = ({ slide, slideIndex, activeIndex }) => {
         ...style,
         backgroundImage: `url(${slide.image})`,
       }}
-    ></div>
+      onClick={onClick}
+    >
+      {/* ODSTRANĚN H3 ELEMENT S TEXTEM */}
+    </div>
   );
 };

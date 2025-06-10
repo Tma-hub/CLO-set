@@ -40,7 +40,7 @@ export const Menu = () => {
           </Link>
           <Link to="/sustainability">
             <span>
-              <h4>Udržitelnost</h4>
+              <h4>Jak na udržitelný šatník?</h4>
             </span>
           </Link>
         </div>

@@ -63,7 +63,7 @@ export const Weather = () => {
       <h4 className="weather__tip">
         {weather.current.temp_c <= 18
           ? 'Je chladněji, vezmi si dnes vrstvu navíc.'
-          : 'Dnes je teplo, bundu můžeš nechat doma.'}
+          : 'Je teplo, bundu můžeš nechat doma.'}
       </h4>
     </div>
   );

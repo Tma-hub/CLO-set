@@ -23,19 +23,13 @@ body {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
-  /* Důležité: Pokud má kontejner stejné rozměry jako obrázek, lajk bude "uvnitř" */
-  /* padding: 0; */
-  /* Zajistíme, že tam není žádný extra padding */
 }
 
 .selectedItem {
   width: var(--main-img-width);
   height: auto;
   margin: 0;
-  /* Změna: odstranění vnějších mezer, pokud je již obaluje container */
   display: block;
-  /* ODSTRANĚNO: border: 1px solid #ddd; */
-  /* ODSTRANĚNO: box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .selectedItemWrapper h1 {
@@ -63,24 +57,16 @@ body {
   width: 100%;
 }
 
-/* ZDE JE ÚPRAVA PRO OBRÁZKY Z ImageLink (ty co se "hodí k sobě") */
-/* Protože ImageLink renderuje .image-link-wrapper a .image-link-wrapper img */
 .get_data .image-link-wrapper {
   width: var(--grid-img-width);
-  /* Zajistí, že obal zabírá správnou šířku */
-  /* Remove any padding/margin that might be on the wrapper */
   margin: 0;
-  /* Remove existing margin from ImageLink.css if present */
   line-height: 0;
-  /* Ensures no extra space below the image */
 }
 
 .get_data .image-link-wrapper img {
   width: 100%;
-  /* Zajistí, že se obrázek roztáhne na celou šířku wrapperu */
   height: auto;
   display: block;
-  /* ODSTRANĚNO: border a box-shadow */
   border: none;
   box-shadow: none;
 }

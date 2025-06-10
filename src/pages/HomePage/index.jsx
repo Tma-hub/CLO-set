@@ -1,12 +1,25 @@
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderMainPage } from '../../components/HeaderMainPage/HeaderMainPage';
 import { Weather } from '../../components/Weather/Weather';
 import { RandomPicks } from '../../components/RandomPicks/RandomPicks';
-import { AddNew } from '../../components/AddNew/AddNew';
+import { Carousel } from '../../components/Carousel/Carousel.jsx'; // NOVÝ IMPORT
 import { Favorites } from '../../components/Favorites/Favorites';
+import data from '../../../api/data.json';
+import { ImageLink } from '../../components/ImageLink/imageLink';
+
 import './style.css';
 
 export const HomePage = () => {
+  const [allProducts, setAllProducts] = useState(data);
+
+  const handleAddProduct = (newProduct) => {
+    setAllProducts((prevProducts) => [newProduct, ...prevProducts]);
+    alert(
+      'Nový produkt byl úspěšně přidán (pouze dočasně, po obnovení zmizí)!',
+    );
+  };
+
   return (
     <div>
       <div className="homepage-container">
@@ -21,18 +34,15 @@ export const HomePage = () => {
         <div className="homepage">
           <Weather />
           <RandomPicks />
-          <AddNew />
+          {}
+          <Carousel onAddProduct={handleAddProduct} />
+
           <Link to="/select-page">
             <button className="what__to__wear_btn">
               <h1>Co si vezmeš dnes na sebe?</h1>
             </button>
           </Link>
           <Favorites />
-          <Link to="/sustainability">
-            <button className="sustainability_btn">
-              <h3>Jak na udržitelný šatník?</h3>
-            </button>
-          </Link>
         </div>
       </div>
     </div>
