@@ -22,6 +22,11 @@
 
 }
 
+.add__title {
+  display: flex;
+  justify-content: center;
+}
+
 #next,
 #prev {
   position: absolute;

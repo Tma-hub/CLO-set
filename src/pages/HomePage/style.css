@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding-top: 0.5rem;
+  padding: 0.5rem;
   flex: 1;
   overflow-y: auto;
   padding-bottom: 0.5rem;
@@ -41,4 +41,8 @@
 .homepage-container {
   height: 100vh;
 
+}
+
+.homepage h2 {
+  text-align: center;
 }
