@@ -2437,6 +2437,7 @@
     "strih": "slim",
     "img": "kalhoty_kostka_slim.jpg"
   },
+
   {
     "id": 187,
     "typ": "kosile",
@@ -2826,7 +2827,5 @@
     "delka": null,
     "strih": null,
     "img": "top_tmruzova_saten.jpg"
-  },
-  
-  
+  }
 ]
