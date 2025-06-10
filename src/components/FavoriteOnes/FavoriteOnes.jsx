@@ -35,8 +35,8 @@ const FavoriteOnes = ({
       style={{
         width: `${buttonSize}px`,
         height: `${buttonSize}px`,
-        top: '10px',
-        right: '10px',
+        top: '1px',
+        right: '1px',
       }}
     >
       <img

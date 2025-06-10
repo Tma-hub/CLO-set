@@ -8,6 +8,7 @@ import { FavoritesPage } from './pages/FavoritesPage/favoritesPage';
 import { SelectedItemPage } from './pages/SelectedItemPage/selectedItemPage';
 import { useEffect } from 'react';
 import { OpeningPage } from './pages/OpeningPage/openingPage';
+import { FashionTipsPage } from './pages/FashionTipsPage/FashionTipsPage';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -25,6 +26,7 @@ export const App = () => {
         <Route path="home-page" element={<HomePage />} />
         <Route path="/about-app" element={<AboutPage />} />
         <Route path="/about-us" element={<AboutUsPage />} />
+        <Route path="/fashion-tips" element={<FashionTipsPage />} />
         <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="/select-page" element={<SelectPage />} />
         <Route path="/sustainability" element={<SustainabilityPage />} />

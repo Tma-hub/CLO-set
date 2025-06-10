@@ -1,7 +1,7 @@
 // src/components/AddProductForm/AddProductForm.jsx
 import React, { useState, useEffect } from 'react';
 import './AddProductForm.css';
-import { Categories } from '../../pages/SelectPage/Categories'; // Ujistěte se, že cesta je správná
+import { Categories } from '../../pages/SelectPage/Categories';
 
 export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
   const [productData, setProductData] = useState({
@@ -9,7 +9,7 @@ export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
     barva: [], // Checkboxes
     odstin: '', // Select
     vzor: '', // Select
-    material: '', // Select (zde jsem udělal Material jako select, protože ve vašem JSONu je vždy jen jeden)
+    material: '', // Select
     styl: [], // Checkboxes
     sezona: [], // Checkboxes
     delka: '', // Select
@@ -22,13 +22,11 @@ export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
     setProductData((prevData) => ({ ...prevData, typ: initialTyp }));
   }, [initialTyp]);
 
-  // Handler pro změny v select inputech a textových inputech
   const handleChange = (e) => {
     const { name, value } = e.target;
     setProductData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  // Handler pro změny v checkboxech (multi-select)
   const handleCheckboxChange = (e) => {
     const { name, value, checked } = e.target;
     setProductData((prevData) => {
@@ -44,23 +42,21 @@ export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
     });
   };
 
-  // Handler pro výběr souboru obrázku
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
       setProductImage(file);
-      setPreviewImageUrl(URL.createObjectURL(file)); // Vytvoří dočasnou URL pro náhled
+      setPreviewImageUrl(URL.createObjectURL(file));
     } else {
       setProductImage(null);
       setPreviewImageUrl('');
     }
   };
 
-  // Handler pro odeslání formuláře
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const newId = Date.now().toString(); // Vygenerujeme dočasné ID
+    const newId = Date.now().toString();
 
     const newProduct = {
       id: newId,
@@ -73,17 +69,17 @@ export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
       sezona: productData.sezona,
       delka: productData.delka || null,
       strih: productData.strih || null,
-      img: previewImageUrl, // Používáme dočasnou URL pro zobrazení
+      img: previewImageUrl,
     };
 
-    onAddProduct(newProduct); // Zavoláme funkci z rodičovské komponenty
-    onClose(); // Zavřeme formulář
+    onAddProduct(newProduct);
+    onClose();
   };
 
   return (
     <div className="add-product-modal-overlay">
       <div className="add-product-modal-content">
-        <h3>Přidat nový produkt</h3>
+        <h3>Přidej nový kousek do svého šatníku</h3>
         <form onSubmit={handleSubmit} className="add-product-form">
           {/* Typ (Select Box) */}
           <div className="form-group">
@@ -159,7 +155,7 @@ export const AddProductForm = ({ onAddProduct, initialTyp = '', onClose }) => {
             </select>
           </div>
 
-          {/* Materiál (Select Box - předpokládám jeden materiál jako v JSONu) */}
+          {/* Materiál*/}
           <div className="form-group">
             <label htmlFor="material">Materiál:</label>
             <select

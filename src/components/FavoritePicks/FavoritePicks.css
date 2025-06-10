@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
   width: 100%;
   border: solid grey 2px;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1.5rem;
 }
 

@@ -25,7 +25,9 @@
 .add-product-modal-content h3 {
   text-align: center;
   margin-bottom: 25px;
-  color: #333;
+  color: rgba(255, 7, 176, 1);
+  letter-spacing: 2px;
+  font-style: normal;
 }
 
 .add-product-form .form-group {

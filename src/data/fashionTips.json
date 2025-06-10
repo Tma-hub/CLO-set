@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "category": "Udržitelná móda",
+    "title": "Víte, jak poznat kvalitní oblečení? Těchto deset tipů vám pomůže",
+    "description": "Průvodce, jak rozlišit kvalitní kousky oblečení, které vydrží déle a podpoří váš udržitelný šatník. Zaměřeno na detaily a materiály.",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d25d9d5b0fada00012e3efc/2bad9adb-042b-4dfa-9988-5f8f49e44666/8P9A7429-2.JPG?format=2500w",
+    "link": "https://www.slowfemme.com/magazine/vite-jak-poznat-kvalitni-obleceni-techto-deset-tipu-vam-pomuze"
+  },
+  {
+    "id": "2",
+    "category": "Péče o oblečení",
+    "title": "Málo peru, hodně větrám, skoro nežehlím",
+    "description": "Tipy a triky pro prodloužení životnosti vašeho oblečení s minimální námahou. Jak správně pečovat o látky a šetřit energii.",
+    "imageUrl": "https://www.nila.cz/data/2023/06/27/07/1200x_/nila-summer-2023-218.jpg",
+    "link": "https://www.nila.cz/blog/archiv/osveta/malo-peru-hodne-vetram-skoro-nezehlim/"
+  },
+  {
+    "id": "3",
+    "category": "Udržitelná móda",
+    "title": "Rozhovor: Udržitelný šatník",
+    "description": "Inspirativní rozhovor o budování udržitelného šatníku, minimalismu a etických aspektech módy. Získejte praktické rady a pohledy expertů.",
+    "imageUrl": "https://tchiboblog.cz/content/uploads/2021/06/TCH210B_06_rozhorvor-karo_01nh_02.jpg",
+    "link": "https://tchiboblog.cz/rozhovor-udrzitelny-satnik/"
+  }
+]
