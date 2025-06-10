@@ -3,7 +3,7 @@
     "id": 1,
     "typ": "bunda",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": null,
     "styl": ["casual"],
@@ -16,7 +16,7 @@
     "id": 2,
     "typ": "bunda",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": null,
     "styl": ["casual"],
@@ -55,7 +55,7 @@
     "id": 5,
     "typ": "bunda",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "kuze",
     "styl": ["casual"],
@@ -94,7 +94,7 @@
     "id": 8,
     "typ": "bunda",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": null,
     "styl": ["sportovni"],
@@ -139,21 +139,21 @@
     "styl": ["sportovni"],
     "sezona": ["zima"],
     "delka": "dlouha",
-    "strih": "volne",
-    "img": "bunda_zimni_zelena.jpg"
+    "strih": "volny",
+    "img": "parka_dlouha_cerna.jpg"
   },
   {
     "id": 12,
     "typ": "bunda",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": null,
     "styl": ["casual"],
     "sezona": ["jaro", "podzim"],
     "delka": "dlouha",
-    "strih": "volne",
-    "img": "parka_dlouha_cerna.jpg"
+    "strih": "volny",
+    "img": "parka_zelena.jpg"
   },
   {
     "id": 13,
@@ -162,11 +162,11 @@
     "odstin": "svetly",
     "vzor": null,
     "material": null,
-    "styl": ["casual"],
-    "sezona": ["jaro"],
-    "delka": "dlouha",
-    "strih": "volne",
-    "img": "parka_zelena.jpg"
+    "styl": ["sportovni"],
+    "sezona": ["jaro", "podzim "],
+    "delka": "stredni",
+    "strih": "volny",
+    "img": "bunda_zluta_sportovni.jpg"
   },
   {
     "id": 14,
@@ -211,7 +211,7 @@
     "id": 17,
     "typ": "halenka",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual", "spolecenske"],
@@ -223,8 +223,8 @@
   {
     "id": 18,
     "typ": "halenka",
-    "barva": "cerna",
-    "odstin": "tmava",
+    "barva": ["cerna"],
+    "odstin": "tmavy",
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual", "spolecenske"],
@@ -237,8 +237,8 @@
     "id": 19,
     "typ": "halenka",
     "barva": ["cerna", "bila"],
-    "odstin": "tmava",
-    "vzor": "puntiky",
+    "odstin": "tmavy",
+    "vzor": "puntikovane",
     "material": null,
     "styl": ["casual", "spolecenske"],
     "sezona": ["jaro", "podzim"],
@@ -250,8 +250,8 @@
     "id": 20,
     "typ": "halenka",
     "barva": ["cerna", "bila"],
-    "odstin": "tmava",
-    "vzor": "kvetinovy",
+    "odstin": "tmavy",
+    "vzor": "kvetovane",
     "material": "bavlna",
     "styl": ["casual", "spolecenske"],
     "sezona": ["jaro", "leto"],
@@ -414,7 +414,7 @@
     "sezona": ["podzim", "zima"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "kabat_seda_kratky.jpg"
+    "img": "kabat_sedy_kratky.jpg"
   },
   {
     "id": 33,
@@ -471,8 +471,8 @@
   {
     "id": 37,
     "typ": "kabat",
-    "barva": ["bezova"],
-    "odstin": "svetla",
+    "barva": ["hneda"],
+    "odstin": "svetly",
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual"],
@@ -518,14 +518,14 @@
     "styl": ["formalni"],
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
-    "strih": "volne",
+    "strih": "volny",
     "img": "kalhoty_bile_fomal.jpg"
   },
   {
     "id": 41,
     "typ": "kalhoty",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "denim",
     "styl": ["casual"],
@@ -616,7 +616,7 @@
     "id": 48,
     "typ": "kalhoty",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual"],
@@ -628,15 +628,15 @@
   {
     "id": 49,
     "typ": "kalhoty",
-    "barva": ["cerna"],
-    "odstin": "tmava",
-    "vzor": null,
-    "material": "bavlna",
+    "barva": ["modra"],
+    "odstin": "tmavy",
+    "vzor": "pruhovane",
+    "material": "len",
     "styl": ["casual"],
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "kalhoty.jpg"
+    "strih": "volny",
+    "img": "kalhoty_pruhovane.jpg"
   },
   {
     "id": 50,
@@ -661,7 +661,7 @@
     "styl": ["sportovni"],
     "sezona": null,
     "delka": "stredni",
-    "strih": "regular",
+    "strih": "slim",
     "img": "leginy_khaki_3_4.jpg"
   },
   {
@@ -674,8 +674,8 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "dlouha",
-    "strih": "regular",
-    "img": "leginy_ruzove.jpg"
+    "strih": "volny",
+    "img": "kalhoty_zvireci.jpg"
   },
   {
     "id": 53,
@@ -702,7 +702,7 @@
     "sezona": ["jaro", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "kosile_bavlna_kvetovaná.jpg"
+    "img": "kosile_bavlna_kvetovana.jpg"
   },
   {
     "id": 55,
@@ -839,20 +839,7 @@
     "id": 65,
     "typ": "kosile",
     "barva": ["modra"],
-    "odstin": "tmava",
-    "vzor": "kvetinovy",
-    "material": "bavlna",
-    "styl": ["casual"],
-    "sezona": ["jaro"],
-    "delka": "kratka",
-    "strih": "regular",
-    "img": "kosile_tmmodra_azura.jpg"
-  },
-  {
-    "id": 65,
-    "typ": "kosile",
-    "barva": ["modra"],
-    "odstin": "svetla",
+    "odstin": "svetly",
     "vzor": null,
     "material": "denim",
     "styl": ["casual"],
@@ -885,7 +872,7 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "kratasy_bile_formal.jpg"
+    "img": "kratasy_bile_formalni.jpg"
   },
   {
     "id": 68,
@@ -898,7 +885,7 @@
     "sezona": ["leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "kratasy_bile_formal.jpg"
+    "img": "kratasy_sukne_bila.jpg"
   },
   {
     "id": 69,
@@ -917,7 +904,7 @@
     "id": 70,
     "typ": "kratasy",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "bavlna",
     "styl": ["casual"],
@@ -943,14 +930,14 @@
     "id": 72,
     "typ": "kratasy",
     "barva": ["cerna"],
-    "odstin": "tmava",
+    "odstin": "tmavy",
     "vzor": null,
     "material": "polyester",
     "styl": ["sportovni"],
     "sezona": null,
     "delka": "kratka",
     "strih": "regular",
-    "img": "kratasy_cerne_sportovni.jpg"
+    "img": "kratasy_cerne_volne.jpg"
   },
   {
     "id": 73,
@@ -1007,8 +994,8 @@
   {
     "id": 77,
     "typ": "kratasy",
-    "barva": ["zelena", "khaki"],
-    "odstin": "tmava",
+    "barva": ["khaki"],
+    "odstin": "tmavy",
     "vzor": null,
     "material": "bavlna",
     "styl": ["sportovni"],
@@ -1080,7 +1067,7 @@
     "sezona": ["jaro", "podzim", "leto"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "sako_cerna_delsi.jpg"
+    "img": "sako_cerne_delsi.jpg"
   },
   {
     "id": 83,
@@ -1625,7 +1612,7 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
-    "strih": "volne",
+    "strih": "volny",
     "img": "saty_cerne_balon.jpg"
   },
   {
