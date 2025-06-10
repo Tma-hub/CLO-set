@@ -18,9 +18,9 @@ export const Menu = () => {
 
       {open && (
         <div className="menu-open">
-          <Link to="/sustainability">
+          <Link to="/favorites">
             <span>
-              <h4>Udržitelnost</h4>
+              <h4>Oblíbené</h4>
             </span>
           </Link>
           <Link to="/about-app">
@@ -36,6 +36,11 @@ export const Menu = () => {
           <Link to="/fashion-tips">
             <span>
               <h4>Fashion tips</h4>
+            </span>
+          </Link>
+          <Link to="/sustainability">
+            <span>
+              <h4>Udržitelnost</h4>
             </span>
           </Link>
         </div>

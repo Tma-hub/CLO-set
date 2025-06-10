@@ -1,14 +1,16 @@
 .what__to__wear_btn {
   border: solid rgba(255, 7, 176, 1) 4px;
+  background-color: rgba(255, 7, 176, 1);
   border-radius: 50px;
   margin-bottom: 1rem;
+  padding: 0.7rem;
 }
 
 .what__to__wear_btn h1 {
-  color: rgba(255, 7, 176, 1);
-  letter-spacing: 3px;
+  color: white;
+  letter-spacing: 2px;
   padding: 0.5rem;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .sustainability_btn {

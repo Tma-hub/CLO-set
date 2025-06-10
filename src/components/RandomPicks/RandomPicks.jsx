@@ -1,7 +1,7 @@
 import { Title } from '../Title/Title';
 import data from '../../../api/data.json';
 import './RandomPicks.css';
-import { ImageLink } from '../../components/ImageLink/imageLink';
+import { ImageLink } from '../ImageLink/imageLink';
 
 export const RandomPicks = () => {
   const getRandomPicks = (data) => {

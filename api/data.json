@@ -270,7 +270,7 @@
     "sezona": ["jaro", "leto"],
     "delka": "kratka",
     "strih": "regular",
-    "img": "halenka_cerverna_azura.jpg"
+    "img": "halenka_cervena_azura.jpg"
   },
   {
     "id": 22,
@@ -597,7 +597,7 @@
     "sezona": ["jaro", "leto", "podzim"],
     "delka": "dlouha",
     "strih": "regular",
-    "img": "kalhoty_saten _khaki.jpg"
+    "img": "kalhoty_saten_khaki.jpg"
   },
   {
     "id": 47,

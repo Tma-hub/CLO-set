@@ -1,0 +1,26 @@
+.image-link-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.image-link-content {
+  display: block;
+}
+
+.image-link-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-item-title {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #333;
+  line-height: normal;
+}
