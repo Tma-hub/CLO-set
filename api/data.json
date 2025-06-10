@@ -1215,7 +1215,6 @@
     "delka": "stredni",
     "strih": "regular",
     "img": "vesta_ruzova.jpg"
-    "img": "vesta_ruzova.jpg"
   },
   {
     "id": 94,
@@ -1592,7 +1591,6 @@
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "vesta_pletena_bila.jpg"
     "img": "vesta_pletena_bila.jpg"
   },
   {
