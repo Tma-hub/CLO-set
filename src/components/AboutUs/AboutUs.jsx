@@ -3,6 +3,9 @@ export const AboutUs = () => {
     <div>
       <section className="tereza">
         <h1>Tereza</h1>
+        <div className="tereza-img">
+          <img src="/img/tereza.JPG" alt="tereza" />
+        </div>
         <p>
           Ahoj, já jsem Tereza. Věnuji tvorbě oděvů, především sportovních, ale
           ve volném čase mě v teď kromě sportů nejvíce baví IT - experimentování
@@ -14,6 +17,9 @@ export const AboutUs = () => {
       </section>
       <section className="pavlina">
         <h1>Pavlína</h1>
+        <div className="pavlina-img">
+          <img src="/img/pavlina.jpeg" alt="pavlina" />
+        </div>
         <p>
           Ahoj, ja jsem Pavlína. Věnuji se analýzám, zefektivnění a
           harmonizování finančních procesů. Ve svém volném čase mimo to, že ráda
