@@ -480,8 +480,6 @@
     "delka": "dlouha",
     "strih": "regular",
     "img": "trenckot_bezova_dlouha.jpg"
-    "strih": "regular",
-    "img": "trnckot_bezova_dlouha.jpg"
   },
 
   {
@@ -886,8 +884,6 @@
     "styl": ["formalni"],
     "sezona": ["leto"],
     "delka": "kratka",
-    "strih": "regular",
-    "img": "kratasy_bile_formal.jpg"
     "strih": "regular",
     "img": "kratasy_sukne_bila.jpg"
   },
@@ -1616,8 +1612,6 @@
     "styl": ["casual"],
     "sezona": ["jaro", "leto"],
     "delka": "stredni",
-    "strih": "volne",
-    "img": "saty_cerne_balon.jpg"
     "strih": "volny",
     "img": "saty_cerne_balon.jpg"
   },
