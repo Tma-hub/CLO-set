@@ -101,7 +101,7 @@
     "sezona": ["jaro", "podzim"],
     "delka": "stredni",
     "strih": "regular",
-    "img": "bunda_sportovni.jpg"
+    "img": "sako_bolerko_cerne.jpg"
   },
   {
     "id": 9,
@@ -2800,7 +2800,7 @@
     "sezona": ["jaro", "leto", "podzim", "zima"],
     "delka": null,
     "strih": null,
-    "img": "sako_bolerko_cerne.jpg"
+    "img": "bunda_sportovni.jpg"
   },
   {
     "id": 215,
